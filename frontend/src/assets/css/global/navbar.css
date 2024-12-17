@@ -88,3 +88,8 @@
         width: 460px !important;
     }
 }
+@media (max-width:768px) {
+    .extra_navbar_brand img{
+        display: none !important;
+    }
+}
