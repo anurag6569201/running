@@ -28,7 +28,7 @@ function Navbar() {
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Competition</span></span><span><i class="bi bi-arrow-down-short"></i></span></a>
                             <ul class="dropdown-menu">
                                 <ul>
-                                    <li><Link class="dropdown-item" to="/howWork"><i class="bi bi-chevron-right"></i><span>How it works</span></Link></li>
+                                    <li><Link class="dropdown-item" to="/howwork"><i class="bi bi-chevron-right"></i><span>How it works</span></Link></li>
                                     <li><Link class="dropdown-item" to="/whoParticipate"><i class="bi bi-chevron-right"></i><span>Who can participate?</span></Link></li>
                                     <li><Link class="dropdown-item" to="/threeDiscipline"><i class="bi bi-chevron-right"></i><span>The three disciplines</span></Link></li>
                                     <li><Link class="dropdown-item" to="/rulesCategory"><i class="bi bi-chevron-right"></i><span>Rules and categories</span></Link></li>
