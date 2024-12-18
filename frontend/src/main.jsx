@@ -8,7 +8,6 @@ import Navbar from './assets/global/navbar/navbar';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Navbar/>
     <div>
       <App />
     </div>
