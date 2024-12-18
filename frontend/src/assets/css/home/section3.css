@@ -1,0 +1,117 @@
+.custom-btn {
+    border: none;
+    border-radius: 15px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 7px;
+    border-radius: 10px !important;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    border: none !important;
+  }
+
+  .custom-btn.collapsed .bi-arrow-down-right-circle-fill::before {
+    content: "\F140";
+  }
+  .accordion-body {
+    padding: 15px;
+    padding-top: 0 !important;
+    border-radius: 10px !important;
+  }
+
+  /* Remove outline on focus */
+  .custom-btn:focus {
+    box-shadow: none;
+  }
+  .accordion-item{
+      background-color: white;
+      border-radius: 10px !important;
+  }
+  .accordion-button{
+    font-size: 18px !important;
+  }
+  .accordion-button:not(.collapsed){
+      background-color: transparent !important;;
+  }
+  .accordion{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  .accordion-button:focus{
+    box-shadow: none !important;
+  }
+  .icon_dropdown{
+    color: #3B81F6;
+    border-radius: 50%;
+  }
+  .icon_dropdown .bi::before{
+    font-size: 29px;
+  }
+  .main_work_wrapper{
+    justify-content: center;
+    align-items: center;
+  }
+  .accordion_image{
+    overflow: hidden !important;
+    object-fit: contain !important;;
+  }
+  .accordion_image img{
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+
+
+
+
+
+  .table_data_accordion{
+    background-image: url('images/home/table_accordion.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: contain;
+  }
+  .table_accordion_wrapper_md-4 .accordion_img-1{
+    width: 15rem;
+  }
+  .table_accordion_wrapper_md-4 .accordion_img-2{
+    width: 12rem;
+  }
+  .table_accordion_wrapper_md-4 .accordion_img-2_wrapper{
+    display: flex;
+    justify-content: right;
+  }
+  .styled_table_accordion_text{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+}
+.table-responsive{
+    border-radius: 15px !important;
+}
+.custom-table{
+    margin: 0 !important;
+    border-radius: 15px !important;
+    table-layout: fixed;
+}
+.custom-table thead th{
+    background-color: #1f2937;
+    color: white;
+}
+.custom-table tbody tr td{
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 13px;
+} 
+.table_data_accordion_row_wrapper{
+    justify-content: center;
+    align-items: center;
+}
+

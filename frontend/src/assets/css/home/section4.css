@@ -1,0 +1,66 @@
+.info-box{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.info-box h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+.info-box p{
+    padding: 10px;
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.date h5{
+    background-color: #28a745;
+}
+.info-box.point-system h5{
+    background-color: #007bff;
+}
+.info-box.info-box.disciplines h5{
+    background-color: #dc3545;
+}
+
+
+.info-box.date {
+    background-color: #d4edda; /* Greenish background */
+}
+.info-box.point-system {
+    background-color: #cce5ff; /* Light blue background */
+}
+.info-box.disciplines {
+    background-color: #f8d7da; /* Light red background */
+}
+.container-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .container-boxes {
+        flex-direction: column;
+    }
+}
+.boxes_wrapper{
+    justify-content: center;
+}
+.boxes_wrapper_container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.boxes_wrapper_container .card{
+    border: none !important;
+}
+.boxes_wrapper_container .card-body{
+    padding: 0px !important;
+}
+.boxes_wrapper_container .container_box_card-2{
+    margin-top: 150px;
+}
+.boxes_wrapper_container .container_box_card-3{
+    margin-top: 250px;
+}
+

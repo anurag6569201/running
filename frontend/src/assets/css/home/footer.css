@@ -1,0 +1,36 @@
+
+
+.footer-wrapper {
+    padding: 20px 0;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: unset !important;
+}
+
+.logo-section img {
+    max-height: 40px;
+    object-fit: contain;
+}
+
+.copyright {
+    background-color: #2d3442;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.social-icons{
+    width: unset !important;
+}
+.footer_images_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+}

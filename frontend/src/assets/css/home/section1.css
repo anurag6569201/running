@@ -1,0 +1,121 @@
+.badge-news {
+    background-color: #e0e0e0;
+    color: #000;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.headline span {
+    text-decoration: underline;
+}
+
+.custom-button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.arrow {
+    font-size: 4rem;
+    color: #2b2b2b;
+}
+
+.wow-text {
+    transform: rotate(-20deg);
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+
+.video_container_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.video-container {
+    position: relative;
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    display: block;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.play-button img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+
+.athelate_row_wrapper{
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.title span {
+    color: red;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 20px 0;
+}
+.athelate_image_wrapper{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+}
+.athelate_image{
+    height: 450px;
+}

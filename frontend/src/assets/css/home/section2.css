@@ -1,0 +1,12 @@
+
+.how_work_wrapper_row h1{
+    text-align: center;
+}
+.main_work_wrapper{
+    background-image: url('images/home/banner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+

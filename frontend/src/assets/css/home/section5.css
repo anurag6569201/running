@@ -1,0 +1,124 @@
+.ribbon_container_wrapper{
+    overflow: hidden;
+    height: 50vh;
+    padding: 0 !important;
+}
+.ribbon_container_wrapper .row{
+    margin: 0 !important;
+}
+.ribbon-container {
+    position: relative;
+    min-height: 300px;
+    margin-top: 5rem;
+    padding: 0 !important;
+}
+
+.ribbon {
+    position: absolute;
+    width: 200%;
+    padding: 1rem;
+    left: -50%;
+}
+
+.ribbon-blue {
+    background-color: rgba(207, 226, 243, 0.8);
+    transform: rotate(-8deg);
+    top: 8rem;
+    border: 1px solid #007bff;
+}
+
+.ribbon-green {
+    background-color: rgba(217, 234, 211, 0.8);
+    transform: rotate(6deg);
+    top: 8rem;
+    border: 1px solid #28a745;
+}
+
+.scroll-text {
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+    text-align: center;
+}
+
+.scroll-text-reverse {
+    white-space: nowrap;
+    animation: scroll-reverse 20s linear infinite;
+    text-align: center;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-reverse {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
+.register-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    background-color: #dc3545;
+    color: white;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+}
+
+.register-button {
+    background-color: #c82333;
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.02);
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    height: 100%;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    transform: rotate(-45deg);
+}
+
+
+.star {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #666;
+    animation: twinkle 1.5s ease-in-out infinite;
+    z-index: 5;
+}
+
+.star-1 {
+    top: 25%;
+    right: 25%;
+}
+
+.star-2 {
+    bottom: 25%;
+    left: 25%;
+    animation-delay: 0.5s;
+}
+
+@keyframes twinkle {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+}
+
+.up-arrow {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+

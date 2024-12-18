@@ -1,0 +1,41 @@
+.types_container_wrapper{
+    background-image: url('public/images/home/banner_type.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_types{
+    text-align: center;
+    align-items: center;
+    background-color: transparent !important;
+    border: none !important;
+}
+.card_types img{
+    width: 80px;
+}
+.card_types .helper_title_text{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.card_types .card-title{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+.accodion_drops_wrapper .card-body{
+    padding: 0 !important;
+}
+.accodion_drops_wrapper .accordion{
+    flex-direction: row;
+    gap: 0px;
+}
+.accodion_drops_wrapper .main-title{
+    text-align: center;
+}
+
