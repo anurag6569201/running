@@ -2,7 +2,7 @@
     color: grey;
     font-size: 14px;
 }
-.card-img-top{
+.news_cards_stack .card-img-top{
     height: 230px;
     border-radius: 15px;
 }

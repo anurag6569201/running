@@ -1,0 +1,46 @@
+.howW_img1{
+    width: 90%;
+}
+.howWcontainer .howWrow{
+    height: 90vh;
+}
+.howWcontainer1{
+    background-color: #cbd5e1;
+    min-height: 100vh;
+}
+.howWh1{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 60px;
+    font-style: normal;
+}
+.bluehowW,
+.greenhowW{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #060606;
+    background-color: #16a349;
+    color:white ;
+}
+.bluehowW{
+    background-color: #a0d3fa;
+}
+.howWcontainer ul li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.howWcontainer ul li .span_circle{
+    background-color: #16a349;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.howWcontainer ul li:nth-child(2) .span_circle{
+    background-color: rgb(163, 41, 41) !important;
+}
+.howWcontainer ul li:nth-child(3) .span_circle{
+    background-color: rgb(182, 194, 51) !important;
+}
