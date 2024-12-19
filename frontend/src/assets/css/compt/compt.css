@@ -26,21 +26,42 @@
 .bluehowW{
     background-color: #a0d3fa;
 }
+.particcontainer ul li,
 .howWcontainer ul li{
     list-style: none;
     display: flex;
     gap: 10px;
     align-items: center;
 }
+.particcontainer ul li .span_circle,
 .howWcontainer ul li .span_circle{
     background-color: #16a349;
     width: 15px;
     height: 15px;
     border-radius: 50%;
 }
+.particcontainer ul li:nth-child(2) .span_circle,
 .howWcontainer ul li:nth-child(2) .span_circle{
     background-color: rgb(163, 41, 41) !important;
 }
+.particcontainer ul li:nth-child(2) .span_circle,
 .howWcontainer ul li:nth-child(3) .span_circle{
     background-color: rgb(182, 194, 51) !important;
+}
+
+.partic_row_wrapper{
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.desc_img{
+    max-width: 700px;
+}
+.small_desc_btn{
+    gap: 15px;
+    justify-content: center;
+}
+.small_desc_btn span{
+    padding: 5px 15px;
+    border-radius: 20px;
 }
