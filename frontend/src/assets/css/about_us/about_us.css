@@ -1,0 +1,50 @@
+.about_us_container{
+    background-image: url('images/about_us/runner.png');
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.about_us_content{
+    max-width: 800px;
+    text-align: center;
+}
+.team_container_row h1,
+.about_us_content h1{
+    font-size: 2em;
+    font-weight: 700;
+}
+.team_container_row{
+    justify-content: center;
+}
+.team_container_row p,
+.about_us_content p{
+    font-size: 1.1em;
+}
+.designer_frame_md{
+    display: flex;
+    justify-content: right;
+}
+.designer_frame_team{
+    background-color: #fff;
+    height: 300px;
+    width: 500px;
+    border-radius:48% 52% 52% 48% / 82% 83% 17% 18% ;
+}
+.about_us_boxes_wrapper{
+    font-size: 1rem;
+}
+.btn-send-contact-us{
+    background-color: #e72c2a !important;
+    border-radius: 20px !important;
+    color: white !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
+.btn-contactssds{
+    display: flex;
+    justify-content: flex-end;
+}
