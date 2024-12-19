@@ -26,7 +26,7 @@ import PrivacyPolicy from './assets/pages/misc/privacyPolicy';
 import Imprint from './assets/pages/misc/imprint';
 
 // Contact routes
-import Contact from './assets/pages/contact/contact';
+import ContactUs from './assets/pages/contact/contact';
 
 // News routes
 import News from './assets/pages/news/news';
@@ -64,7 +64,7 @@ function App() {
         <Route path="/imprint" element={<Imprint />} />
 
         {/* contact routes */}
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactUs />} />
 
         {/* news routes */}
         <Route path="/news" element={<News />} />

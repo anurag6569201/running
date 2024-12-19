@@ -1,12 +1,18 @@
 import React from 'react';
+import Contact from '../home/contact';
+import Footer from '../home/footer';
+import DesignBar from '../home/design_bar';
 
-function Contact() {
+
+function ContactUs() {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>This is the Contact page.</p>
+    <>
+    <div className='mt-5 mb-5'>
+      <Contact/>
     </div>
+    <Footer/>
+    </>
   );
 }
 
-export default Contact;
+export default ContactUs;
