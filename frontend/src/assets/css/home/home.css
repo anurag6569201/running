@@ -11,6 +11,11 @@
     .boxes_wrapper_container .col-md-10{
         width: 94% !important;
     }
+    .ground_img img,
+    .howWimg1{
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 @media (min-width:768px) {
@@ -27,6 +32,11 @@
         width: 98% !important;
         font-size: 12px;
     }
+    .three3, .three2, .three1 {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -63,6 +73,14 @@
     .table_data_accordion_row_wrapper .col-md-7{
         width: 70%;
     }
+    .three3, .three2, .three1 {
+        width: 100%;
+        height: auto;
+    }
+    .three_container_3 .row,
+    .three_container_1 .row{
+        flex-direction: column-reverse !important;
+    }
 }
 @media (max-width: 500px) {
     .athelate_row_wrapper .title{
@@ -98,5 +116,35 @@
     }
     .table_data_accordion{
         background-image: none !important;
+    }
+    .partic_row_wrapper .col-md-6 img{
+        width: 100%;
+        height: auto;
+    }
+    .partic_row_wrapper{
+        height: auto !important;
+    }
+    .table_data_accordion_row_wrapper .col-md-7{
+        width: 100% !important;
+    }
+    .desc_img{
+        width: 100%;
+        height: auto;
+    }
+    .small_desc_btn{
+        flex-direction: column;
+        text-align: center;
+    }
+    .three3, .three2, .three1 {
+        width: 100%;
+        height: auto;
+    }
+    .three_container_3 .row,
+    .three_container_1 .row{
+        flex-direction: column-reverse !important;
+    }
+    .ground_img img{
+        width: 100% !important;
+        height: auto !important;
     }
 }

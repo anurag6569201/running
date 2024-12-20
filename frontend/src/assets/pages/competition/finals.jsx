@@ -10,7 +10,7 @@ import Footer from '../home/footer';
 function Finals() {
   return (
     <>
-    <div className="container">
+      <div className="container">
         <div className="row justify-content-center mb-5">
           <div className="col-md-8 text-center mb-4">
             <h1>Mumbai Regional Finals</h1>
@@ -20,7 +20,7 @@ function Finals() {
         </div>
       </div>
       <div className="container-fluid d-flex justify-content-center mb-5">
-          <img className='desc_img' src="images/compt/threeDesc.png" alt="" />
+        <img className='desc_img' src="images/compt/threeDesc.png" alt="" />
       </div>
       <DesignBar />
       <div className="container mt-5">
@@ -30,56 +30,73 @@ function Finals() {
             <p>Participants are automatically assigned to one of the five districts after registration by their school.</p>
           </div>
           <div className="col-md-10 mt-5">
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={4} spaceBetween={20}>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img src="images/compt/city1.png" alt="" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img src="images/compt/city1.png" alt="" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img src="images/compt/city1.png" alt="" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img src="images/compt/city1.png" alt="" />
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img src="images/compt/city1.png" alt="" />
-                  </div>
-                </SwiperSlide>
+            <Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className="mySwiper"
+              slidesPerView={4}
+              spaceBetween={20}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 15,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                1440: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <div className="swiper_slide_cont">
+                  <img src="images/compt/city1.png" alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="swiper_slide_cont">
+                  <img src="images/compt/city1.png" alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="swiper_slide_cont">
+                  <img src="images/compt/city1.png" alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="swiper_slide_cont">
+                  <img src="images/compt/city1.png" alt="" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="swiper_slide_cont">
+                  <img src="images/compt/city1.png" alt="" />
+                </div>
+              </SwiperSlide>
             </Swiper>
-          </div>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <div className="row justify-content-center">
-          <div className="col-md-10 map_area_city">
-            <img src="images/compt/map.png" alt="" />
           </div>
         </div>
       </div>
       <div className="container mt-5 mb-5">
         <div className="row justify-content-center align-items-center">
-            <div className="col-md-4">
-              <h1>Grand Mumbai Final</h1>
-              <p>The best athletes from the five regional finals qualify for the Grand Mumbai Final. The 30 best athletes in each age category compete against each other.</p>
-              <span>Date : 5 February 2025</span>
-            </div>
-            <div className="col-md-5 ground_img">
-              <img src="images/compt/ground.png" alt="" />
-            </div>
+          <div className="col-md-4">
+            <h1>Grand Mumbai Final</h1>
+            <p>The best athletes from the five regional finals qualify for the Grand Mumbai Final. The 30 best athletes in each age category compete against each other.</p>
+            <span>Date : 5 February 2025</span>
+          </div>
+          <div className="col-md-5 ground_img">
+            <img src="images/compt/ground.png" alt="" />
+          </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

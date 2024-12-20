@@ -1,8 +1,14 @@
 .howW_img1{
-    width: 90%;
+    width: 100%;
+    height: auto;
+}
+.howWrow_img_md5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .howWcontainer .howWrow{
-    height: 90vh;
+    align-items: center;
 }
 .howWcontainer1{
     background-color: #cbd5e1;

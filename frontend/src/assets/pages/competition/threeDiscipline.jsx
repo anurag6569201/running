@@ -32,7 +32,7 @@ function ThreeDiscipline() {
         </div>
       </div>
 
-      <div className="container mt-5">
+      <div className="container mt-5 three_container_1 mb-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
@@ -44,7 +44,7 @@ function ThreeDiscipline() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container three_container_2 mb-5">
         <div className="row justify-content-center align-items-center">
         <div className="col-md-5">
             <img className='three2' src="images/compt/three2.png" alt="" />
@@ -56,7 +56,7 @@ function ThreeDiscipline() {
           </div>
         </div>
       </div>
-      <div className="container mb-5">
+      <div className="container mb-5 three_container_3">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
