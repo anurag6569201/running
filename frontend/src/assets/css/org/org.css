@@ -1,0 +1,15 @@
+.documents_row{
+    border-bottom: 2px dashed grey;
+}
+.swiper_slide_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper_slide_cont img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}

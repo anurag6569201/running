@@ -1,11 +1,109 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
+import DesignBar from '../home/design_bar';
+import Footer from '../home/footer';
 
 function BecomeOrganizer() {
   return (
-    <div>
-      <h1>BecomeOrganizer</h1>
-      <p>This is the BecomeOrganizer page.</p>
+    <>
+    <div className="container">
+      <div className="row justify-content-center align-items-center">
+        <div className="col-md-5">
+          <h1>How easy it is to organise an Athletics Kids Cup</h1>
+          <p>We support you in organising an Athletics Kids Cup. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
+          <button className='rules_category_btn shadow_v1'>Pre-register your school <i class="bi bi-arrow-up-right"></i></button>
+        </div>
+        <div className="col-md-5">
+          <img src="images/org/org1.png" alt="" />
+        </div>
+      </div>
     </div>
+    <DesignBar/>
+    <div className="container mt-5">
+        <div className="row justify-content-center">
+          <div className="col-md-12 text-center">
+            <h2>The Athletics Kids Cup in Mumbai is divided into the following five districts.</h2>
+            <p>Participants are automatically assigned to one of the five districts after registration by their school.</p>
+          </div>
+          <div className="col-md-10 mt-5">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={4} spaceBetween={20}>
+                <SwiperSlide>
+                  <div className="swiper_slide_cont">
+                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
+                    <p className='p-4'>Free organisational material for running the sports day</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="swiper_slide_cont">
+                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
+                    <p className='p-4'>Free organisational material for running the sports day</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="swiper_slide_cont">
+                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
+                    <p className='p-4'>Free organisational material for running the sports day</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="swiper_slide_cont">
+                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
+                    <p className='p-4'>Free organisational material for running the sports day</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="swiper_slide_cont">
+                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
+                    <p className='p-4'>Free organisational material for running the sports day</p>
+                  </div>
+                </SwiperSlide>
+            </Swiper>
+          </div>
+        </div>
+    </div>
+    <div className="container mb-5">
+          <h1 className='howWh1'>The <br />Competition</h1>
+          <div className="row justify-content-center">
+            <div className="col-md-5">
+              <div class="card mb-3 shadow_v1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/compt/howW3.png" class="img-fluid rounded-start" alt="..."/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">The three discipline</h5>
+                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Athletics Kids Cup.</p>
+                    <span class="card-text greenhowW shadow_v1">More Info <i class="bi bi-arrow-up-right"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div className="col-md-5">
+              <div class="card mb-3 shadow_v1">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/compt/howW4.png" class="img-fluid rounded-start" alt="..."/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Categories and rules</h5>
+                    <p class="card-text">Here you can find out everything about the categories, rules, scoring and conditions of participation.</p>
+                    <span class="card-text bluehowW shadow_v1">More Info <i class="bi bi-arrow-up-right"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    <Footer/>
+
+    </>
   );
 }
 

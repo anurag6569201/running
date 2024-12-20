@@ -122,3 +122,9 @@
   .map_area_city img{
     width: 80%;
   }
+  .dpc_data_show{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #060606;
+    border-radius: 10px;
+  }
