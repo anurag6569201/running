@@ -1,21 +1,13 @@
 import React, { useRef } from 'react';
 import "../../css/home/section6.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 function Section6() {
-    const videoRef = useRef(null);
-    const playButtonRef = useRef(null);
-
-    const handlePlayPause = () => {
-        if (videoRef.current) {
-            if (videoRef.current.paused) {
-                videoRef.current.play();
-                playButtonRef.current.style.display = 'none';
-            } else {
-                videoRef.current.pause();
-                playButtonRef.current.style.display = 'flex';
-            }
-        }
-    };
     return (
         <>
             <div className="container-fluid types_container_wrapper">
@@ -55,29 +47,29 @@ function Section6() {
                 </div>
             </div>
 
-            <div className="container">
-                <div className="video_container_wrapper mt-5">
-                    <div className="video-container shadow_v1">
-                        <video
-                            id="video1"
-                            ref={videoRef}
-                            poster="poster.png"
-                            controls
+            <div className="container mt-5">
+                <div className="video_container_wrapper">
+                        <div className="video-container shadow_v1">
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            loop={true}
+                            pagination={{
+                            clickable: true,
+                            }}
+                            navigation={true}
+                            modules={[Pagination, Navigation]}
+                            className="mySwiper"
                         >
-                            <source src="your-video.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                        <div
-                            className="play-button"
-                            id="playButton"
-                            ref={playButtonRef}
-                            onClick={handlePlayPause}
-                            style={{ display: 'flex' }}
-                        >
-                            <img src="images/home/play.png" alt="Play Button" />
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        </Swiper>
                         </div>
                     </div>
-                </div>
             </div>
 
             <div className="container accodion_drops_wrapper mt-5">
@@ -89,11 +81,15 @@ function Section6() {
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Accordion Item #1
+                                            Competition
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                        <li><Link class="dropdown-item" to="/howwork"><i class="bi bi-chevron-right"></i><span>How it works</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/whoParticipate"><i class="bi bi-chevron-right"></i><span>Who can participate?</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/threeDiscipline"><i class="bi bi-chevron-right"></i><span>The three disciplines</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/rulesCategory"><i class="bi bi-chevron-right"></i><span>Rules and categories</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/finals"><i class="bi bi-chevron-right"></i><span>Finals</span></Link></li>
                                     </div>
                                 </div>
                             </div>
@@ -105,11 +101,12 @@ function Section6() {
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Accordion Item #2
+                                            Organizers
                                         </button>
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body.</div>
+                                        <li><Link class="dropdown-item" to="/becomeOrganizer"><i class="bi bi-chevron-right"></i><span>Become an organizer</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/documentsDownload"><i class="bi bi-chevron-right"></i><span>Documents and downloads</span></Link></li>
                                     </div>
                                 </div>
                             </div>
@@ -121,11 +118,14 @@ function Section6() {
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                            Accordion Item #3
+                                            Miscellaneous Info
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body.</div>
+                                        <li><Link class="dropdown-item" to="/dataProtection"><i class="bi bi-chevron-right"></i><span>Data Protection Regulations</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/conditionParticipation"><i class="bi bi-chevron-right"></i><span>Conditions of Participation</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/privacyPolicy"><i class="bi bi-chevron-right"></i><span>Privacy Policy</span></Link></li>
+                                        <li><Link class="dropdown-item" to="/imprint"><i class="bi bi-chevron-right"></i><span>Imprint</span></Link></li>
                                     </div>
                                 </div>
                             </div>
@@ -137,11 +137,11 @@ function Section6() {
                                 <div class="accordion-item">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                            Accordion Item #4
+                                            FAQ
                                         </button>
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the fourth item's accordion body.</div>
+                                        <li><Link class="dropdown-item" to="/faq"><i class="bi bi-chevron-right"></i><span>Frequent questions</span></Link></li>
                                     </div>
                                 </div>
                             </div>

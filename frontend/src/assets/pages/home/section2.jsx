@@ -6,14 +6,14 @@ function section2() {
     return (
         <>
             <div className="container-fluid mt-5">
-                <div className="row how_work_wrapper_row">
+                <div className="row how_work_wrapper_row justify-content-center">
                     <div className="col-md-12">
-                        <h1>How it works</h1>
+                        <h1 className='mb-4'>How it works</h1>
                     </div>
                     <div className="row main_work_wrapper">
                         <div className="col-md-5">
                         <div class="accordion" id="kidsCupAccordion">
-                        <div class="accordion-item shadow_v1 border-0">
+                        <div class="accordion-item shadow_v1">
                             <h2 class="accordion-header" id="headingOne">
                             <button
                                 class="custom-btn accordion-button collapsed"
@@ -39,7 +39,7 @@ function section2() {
                             </div>
                         </div>
 
-                        <div class="accordion-item shadow_v1 border-0">
+                        <div class="accordion-item shadow_v1">
                             <h2 class="accordion-header" id="headingTwo">
                             <button
                                 class="custom-btn accordion-button collapsed"
@@ -65,7 +65,7 @@ function section2() {
                             </div>
                         </div>
 
-                        <div class="accordion-item shadow_v1 border-0">
+                        <div class="accordion-item shadow_v1">
                             <h2 class="accordion-header" id="headingThree">
                             <button
                                 class="custom-btn accordion-button collapsed"
@@ -90,7 +90,7 @@ function section2() {
                             </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow_v1 border-0">
+                        <div class="accordion-item shadow_v1">
                             <h2 class="accordion-header" id="headingFour">
                             <button
                                 class="custom-btn accordion-button collapsed"
@@ -115,7 +115,7 @@ function section2() {
                             </div>
                             </div>
                         </div>
-                        <div class="accordion-item shadow_v1 border-0">
+                        <div class="accordion-item shadow_v1">
                             <h2 class="accordion-header" id="headingFive">
                             <button
                                 class="custom-btn accordion-button collapsed"

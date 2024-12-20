@@ -39,3 +39,7 @@
     text-align: center;
 }
 
+.accodion_drops_wrapper li{
+    list-style: none;
+    padding-left: 20px;
+}

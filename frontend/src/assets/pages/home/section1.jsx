@@ -1,21 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import "../../css/home/section1.css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 
 function Section1() {
-    const videoRef = useRef(null);
-    const playButtonRef = useRef(null);
-
-    const handlePlayPause = () => {
-        if (videoRef.current) {
-            if (videoRef.current.paused) {
-                videoRef.current.play();
-                playButtonRef.current.style.display = 'none';
-            } else {
-                videoRef.current.pause();
-                playButtonRef.current.style.display = 'flex';
-            }
-        }
-    };
     return (
         <>
             <div className="container">
@@ -31,7 +22,7 @@ function Section1() {
                         </div>
                         <div className="col-md-8">
                             <h1 className="headline">
-                                <span>Neeraj</span> joins the team!
+                                <span>India Sports</span> joins the team!
                             </h1>
                             <p className="text-muted">
                                 'The Athletics Kids Cup is a project close to my heart, and I'm proud to
@@ -52,24 +43,24 @@ function Section1() {
                 </div>
                 <div className="video_container_wrapper">
                     <div className="video-container shadow_v1">
-                        <video
-                            id="video"
-                            ref={videoRef}
-                            poster="poster.png"
-                            controls
-                        >
-                            <source src="your-video.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                        <div
-                            className="play-button"
-                            id="playButton"
-                            ref={playButtonRef}
-                            onClick={handlePlayPause}
-                            style={{ display: 'flex' }}
-                        >
-                            <img src="images/home/play.png" alt="Play Button" />
-                        </div>
+                    <Swiper
+                        slidesPerView={1}
+                        spaceBetween={30}
+                        loop={true}
+                        pagination={{
+                        clickable: true,
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation]}
+                        className="mySwiper"
+                    >
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                    </Swiper>
                     </div>
                 </div>
                 <div className="mt-5">
