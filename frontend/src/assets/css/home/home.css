@@ -16,6 +16,14 @@
         width: 100% !important;
         height: auto !important;
     }
+    .designer_frame_md{
+        justify-content: center !important;
+        display: flex;
+    }
+    .info-box img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (min-width:768px) {
@@ -35,6 +43,10 @@
     .three3, .three2, .three1 {
         width: 100%;
         height: auto;
+    }
+    .designer_frame_md{
+        justify-content: center;
+        display: flex;
     }
 
 }
@@ -80,6 +92,10 @@
     .three_container_3 .row,
     .three_container_1 .row{
         flex-direction: column-reverse !important;
+    }
+    .designer_frame_md{
+        justify-content: center;
+        display: flex;
     }
 }
 @media (max-width: 500px) {
@@ -146,5 +162,9 @@
     .ground_img img{
         width: 100% !important;
         height: auto !important;
+    }
+    .designer_frame_md{
+        justify-content: center;
+        display: flex;
     }
 }

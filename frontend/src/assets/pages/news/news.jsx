@@ -8,7 +8,7 @@ function News() {
     <>
     <div className='container mb-5'>
       <h1 className='text-center mt-4 mb-2'>News</h1>
-      <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
         <div class="col">
           <div class="card news_cards_stack shadow_v1">
             <img src="images/news/n1.png" class="card-img-top" alt="..."/>

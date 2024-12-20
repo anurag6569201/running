@@ -17,7 +17,7 @@ function BecomeOrganizer() {
           <button className='rules_category_btn shadow_v1'>Pre-register your school <i class="bi bi-arrow-up-right"></i></button>
         </div>
         <div className="col-md-5">
-          <img src="images/org/org1.png" alt="" />
+          <img className='img-fluid' src="images/org/org1.png" alt="" />
         </div>
       </div>
     </div>
@@ -29,7 +29,31 @@ function BecomeOrganizer() {
             <p>Participants are automatically assigned to one of the five districts after registration by their school.</p>
           </div>
           <div className="col-md-10 mt-5">
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={4} spaceBetween={20}>
+            <Swiper
+                          navigation={true}
+                          modules={[Navigation]}
+                          className="mySwiper"
+                          slidesPerView={4}
+                          spaceBetween={20}
+                          breakpoints={{
+                            320: {
+                              slidesPerView: 1,
+                              spaceBetween: 10,
+                            },
+                            768: {
+                              slidesPerView: 2,
+                              spaceBetween: 15,
+                            },
+                            1024: {
+                              slidesPerView: 3,
+                              spaceBetween: 20,
+                            },
+                            1440: {
+                              slidesPerView: 4,
+                              spaceBetween: 20,
+                            },
+                          }}
+                        >
                 <SwiperSlide>
                   <div className="swiper_slide_cont">
                     <img className='shadow_v1' src="images/compt/city1.png" alt="" />
@@ -64,14 +88,14 @@ function BecomeOrganizer() {
           </div>
         </div>
     </div>
-    <div className="container mb-5">
-          <h1 className='howWh1'>The <br />Competition</h1>
-          <div className="row justify-content-center">
-            <div className="col-md-5">
-              <div class="card mb-3 shadow_v1">
+    <div className="container mt-5 mb-5">
+        <h1 className='howWh1'>The <br />Competition</h1>
+        <div className="row justify-content-center">
+          <div className="col-md-6">
+            <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW3.png" class="img-fluid rounded-start" alt="..."/>
+                  <img src="images/compt/howW3.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -82,12 +106,12 @@ function BecomeOrganizer() {
                 </div>
               </div>
             </div>
-            </div>
-            <div className="col-md-5">
-              <div class="card mb-3 shadow_v1">
+          </div>
+          <div className="col-md-6">
+            <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW4.png" class="img-fluid rounded-start" alt="..."/>
+                  <img src="images/compt/howW4.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -98,8 +122,8 @@ function BecomeOrganizer() {
                 </div>
               </div>
             </div>
-            </div>
           </div>
+        </div>
       </div>
     <Footer/>
 

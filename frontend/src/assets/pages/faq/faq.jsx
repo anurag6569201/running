@@ -8,7 +8,7 @@ function FAQ() {
   return (
     <>
     <div className="container-fluid mt-5 mb-5 faq_wrapper_container">
-      <div className="row how_work_wrapper_row faq_wrapper_row">
+      <div className="row how_work_wrapper_row faq_wrapper_row justify-content-center">
         <div className="col-md-12">
           <h1>FAQ</h1>
         </div>
