@@ -31,16 +31,40 @@ function ThreeDiscipline() {
           </div>
         </div>
       </div>
-      <DesignBar />
-      <div className="container">
-        <div className="row">
-          <div className="col-md-5">
+
+      <div className="container mt-5">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
             <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
-            <span></span>
+            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
           </div>
           <div className="col-md-5">
-            <img src="images/compt/three1.png" alt="" />
+            <img className='three1' src="images/compt/three1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row justify-content-center align-items-center">
+        <div className="col-md-5">
+            <img className='three2' src="images/compt/three2.png" alt="" />
+          </div>
+          <div className="col-md-5 left_three">
+            <h1>Sprint 60 m</h1>
+            <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
+            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div className="container mb-5">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-5 left_three">
+            <h1>Sprint 60 m</h1>
+            <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
+            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
+          </div>
+          <div className="col-md-5">
+            <img className='three3' src="images/compt/three3.png" alt="" />
           </div>
         </div>
       </div>
