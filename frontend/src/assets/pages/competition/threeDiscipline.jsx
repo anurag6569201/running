@@ -10,7 +10,7 @@ function ThreeDiscipline() {
         <div className="row justify-content-center mb-5">
           <div className="col-md-8 text-center mb-4">
             <span>The three disciplines</span>
-            <h1>Running <span>*</span> Jumping <br />Throwing</h1>
+            <h1>Football <span>*</span> Chess <br />Badminton</h1>
             <p>Every child knows these three forms of movement just from playing with their friends. They are required in almost every sport and are practised and perfected in athletics.</p>
           </div>
           <div className="col-md-8 d-flex justify-content-center">
@@ -22,7 +22,7 @@ function ThreeDiscipline() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-12">
-            <h2 className='text-center'>The Athletics Kids Cup is a triathlon consisting of the following disciplines</h2>
+            <h2 className='text-center'>The Sports Kid Talent Hunt is a triathlon featuring the following disciplines:</h2>
           </div>
           <div className="col-md-12 d-flex small_desc_btn mt-3">
             <span className="shadow_v1">Sprint60m - 1 attempt</span>

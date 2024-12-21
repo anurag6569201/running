@@ -1,74 +1,149 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "../../css/home/contact.css";
 
 function Contact() {
+    const [formData, setFormData] = useState({
+        full_name: "",
+        phone: "",
+        email: "",
+        subject: "",
+        message: "",
+    });
+    const [responseMessage, setResponseMessage] = useState("");
+    const [loading, setLoading] = useState(false); // State for loading
+
+    // Hide the response message after 5 seconds
+    useEffect(() => {
+        if (responseMessage) {
+            const timer = setTimeout(() => {
+                setResponseMessage("");
+            }, 5000); // 5 seconds delay
+            return () => clearTimeout(timer); // Clean up the timer on unmount
+        }
+    }, [responseMessage]);
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        setLoading(true); 
+
+        axios
+            .post("http://localhost:8000/api/contact/", formData)
+            .then((response) => {
+                setResponseMessage(response.data.message);
+            })
+            .catch((error) => {
+                setResponseMessage("An error occurred. Please try again.");
+            })
+            .finally(() => {
+                setLoading(false);
+            });
+    };
 
     return (
-        <>
-            <div class="container-fluid contact_form_container">
-                <div class="contact-form">
-                    <div className="col-md-10">
-                        <form className='form_details_contact shadow_v1'>
-                            <h4 class="text-center mb-4">Contact Us</h4>
+        <div className="container-fluid contact_form_container">
+            <div className="contact-form">
+                <div className="col-md-10">
+                    <form className="form_details_contact shadow_v1" onSubmit={handleSubmit}>
+                        <h4 className="text-center mb-4">Contact Us</h4>
 
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label required">Full name</label>
-                                                <input type="text" class="form-control" required />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label">Phone</label>
-                                                <input type="tel" class="form-control" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label required">Email Address</label>
-                                                <input type="email" class="form-control" required />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="form-label required">Subject</label>
-                                                <input type="text" class="form-control" required />
-                                            </div>
-                                        </div>
-                                    </div>
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="mb-3">
+                                    <label className="form-label required">Full Name</label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        name="full_name"
+                                        value={formData.full_name}
+                                        onChange={handleChange}
+                                        required
+                                    />
                                 </div>
-                                <div className="col-md-6">
-                                    <div class="mb-3">
-                                        <label class="form-label required">Message</label>
-                                        <textarea class="form-control" required></textarea>
-                                    </div>
+                                <div className="mb-3">
+                                    <label className="form-label">Phone</label>
+                                    <input
+                                        type="tel"
+                                        className="form-control"
+                                        name="phone"
+                                        value={formData.phone}
+                                        onChange={handleChange}
+                                    />
                                 </div>
-                                <span class="mandatory-text">* mandatory field</span>
-
+                                <div className="mb-3">
+                                    <label className="form-label required">Email Address</label>
+                                    <input
+                                        type="email"
+                                        className="form-control"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
+                                <div className="mb-3">
+                                    <label className="form-label required">Subject</label>
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        name="subject"
+                                        value={formData.subject}
+                                        onChange={handleChange}
+                                        required
+                                    />
+                                </div>
                             </div>
+                            <div className="col-md-6">
+                                <div className="mb-3">
+                                    <label className="form-label required">Message</label>
+                                    <textarea
+                                        className="form-control"
+                                        name="message"
+                                        value={formData.message}
+                                        onChange={handleChange}
+                                        required
+                                    ></textarea>
+                                    {responseMessage && <div className="response-message">{responseMessage}</div>}
+                                    <div className="loader_box" disabled={loading}>
+                                        {loading ? (
+                                        <div className="text-light" role="status">
+                                            <div className="loader">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        ) : (
+                                            ""
+                                        )}
+                                    </div>
+                                </div>
+                            </div>
+                            <span className="mandatory-text">* mandatory field</span>
 
-
-
-                            <div class="d-flex justify-content-center align-items-center">
-                                <button type="submit" class="btn btn-send shadow_v1">
-                                    Send message
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                                        <polyline points="12 5 19 12 12 19"></polyline>
-                                    </svg>
+                            <div className="d-flex justify-content-center align-items-center">
+                                <button type="submit" className="btn btn-send shadow_v1">
+                                        "Send message"
                                 </button>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </>
-    )
+        </div>
+    );
 }
+
 export default Contact;

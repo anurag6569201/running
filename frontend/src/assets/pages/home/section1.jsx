@@ -6,6 +6,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 
+import { Link } from 'react-router-dom';
+import Register from './register';
+
 function Section1() {
     return (
         <>
@@ -25,8 +28,7 @@ function Section1() {
                                 <span>India Sports</span> joins the team!
                             </h1>
                             <p className="text-muted">
-                                'The Athletics Kids Cup is a project close to my heart, and I'm proud to
-                                be part of it. Come, join us, and help make it a success!'
+                                'The Sports Kid Talent Hunt is very familiar and proud to be the part of this and help to make it success'.
                             </p>
                         </div>
                         <div className="col-md-2">
@@ -36,7 +38,7 @@ function Section1() {
                         </div>
                         <div className="col-md-12">
                             <div className="my-4">
-                                <a href="#" className="custom-button shadow_v1">To the news →</a>
+                                <Link to="/news" className="custom-button shadow_v1">To the news →</Link>
                             </div>
                         </div>
                     </div>
@@ -70,12 +72,12 @@ function Section1() {
                                 <span className="badge-news">BREAKING NEWS</span>
                             </div>
                             <h1 class="title mt-3">
-                                Running <span>*</span> Jumping <br /> Throwing
+                                Football <span>*</span> Chess <br /> Badminton
                             </h1>
                             <p class="description">
-                                The Athletics Kids Cup moves the kids! The three basic movement forms that are required in almost every sport are the basis of this unique sports initiative in India. Let's move the children together and encourage their personal development.
+                                The Sports Kid Talent Hunt energizes young athletes! This unique initiative focuses on fundamental movement forms—key to excelling in sports like football, badminton, and chess. Through this program, kids enhance their agility for football, precision for badminton, and strategic thinking for chess. Let’s inspire the next generation to move, grow, and develop holistically in their favorite sports!
                             </p>
-                            <button class="custom-button shadow_v1">Pre-register your school →</button>
+                            <Register/>
                         </div>
                         <div className="col-md-5 athelate_image_wrapper">
                             <img className='athelate_image' src="images/home/athelate.png" alt="" />

@@ -12,7 +12,7 @@ function Section4() {
                             <div class="card">
                                 <div class="card-body shadow_v1 info-box date">
                                     <h5 class="card-title">Date</h5>
-                                    <p class="card-text">The Athletics Kids Cup season begins on 16 September 2024, from which date competitions can be held. All competitions held up to and including 10 December 2024 are part of the qualification period for the Regional Finals. Your school is free to organise an Athletics Kids Cup after 10 December. Of course, you will still receive our full support.</p>
+                                    <p class="card-text">The Sports Kid Talent Hunt season begins on 16 September 2024, allowing competitions to start from this date. Competitions held until 10 December 2024 will count towards the qualification period for the Regional Finals. Schools are welcome to organize Talent Hunt events after 10 December with our full support.</p>
                                 </div>
                             </div>
                         </div>
@@ -20,7 +20,7 @@ function Section4() {
                             <div class="card">
                                 <div class="card-body shadow_v1 info-box point-system">
                                     <h5 class="card-title">Point system</h5>
-                                    <p class="card-text">For the evaluation of the individual performances, a predefined points table is used. The points for the three individual disciplines are added to the triathlon result. Only the total of all three disciplines counts towards the ranking.</p>
+                                    <p class="card-text">A predefined points table is used to evaluate individual performances. Points from the three disciplines are combined into a triathlon result, with only the total score determining the ranking.</p>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ function Section4() {
                             <div class="card">
                                 <div class="card-body shadow_v1 info-box disciplines">
                                     <h5 class="card-title">Disciplines</h5>
-                                    <p class="card-text">The Athletics Kids Cup is a triathlon consisting of the following disciplines:</p>
+                                    <p class="card-text">The Sports Kid Talent Hunt is a triathlon consisting of the following disciplines:</p>
                                     <ul>
                                         <li>Sprint 60 m – 1 attempt</li>
                                         <li>Long jump with zone jump – 3 attempts</li>

@@ -24,7 +24,7 @@ function section2() {
                                 aria-controls="collapseOne"
                             >
                             <span class="icon_dropdown shadow_v1"><i class="bi bi-arrow-down-right-circle-fill"></i></span>
-                                Requirements of an Athletics Kids Cup
+                                Overview
                             </button>
                             </h2>
                             <div
@@ -34,7 +34,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                List of requirements and details about organizing the Athletics Kids Cup.
+                            Children aged 7 to 15 can boost their skills through activities like the 60m sprint for speed, long jump for agility, and ball throw for accuracy. These foundational abilities enhance performance in football, badminton, and even the strategic focus needed in chess. Such events promote all-around development and a love for sports!
                             </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function section2() {
                                 aria-controls="collapseTwo"
                             >
                                 <span class="icon_dropdown shadow_v1"><i class="bi bi-arrow-down-right-circle-fill"></i></span>
-                                Advantages of organising an Athletics Kids Cup
+                                Requirements of an Sports Kid Talent Hunt
                             </button>
                             </h2>
                             <div
@@ -60,7 +60,10 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.
+                            1. Register your school sports day on our website. <br />
+                            2. Use the free starting numbers provided for participants. <br />
+                            3. Submit results through the free evaluation software. <br /> <br />
+                            It’s that simple! Pre-register your school now to join the movement, and we’ll notify you when event registration opens.
                             </div>
                             </div>
                         </div>
@@ -76,7 +79,7 @@ function section2() {
                                 aria-controls="collapseThree"
                             >
                                 <span class="icon_dropdown shadow_v1"><i class="bi bi-arrow-down-right-circle-fill"></i></span>
-                                Advantages of organising an Athletics Kids Cup
+                                Advantages of organising an Sports Kid Talent Hunt
                             </button>
                             </h2>
                             <div
@@ -86,7 +89,14 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.
+                                We support you in organizing a Sports Kid Talent Hunt. Each school receives a ready-to-use toolkit to host its own competition. The toolkit includes: <br /><br />
+
+                                1. A detailed sports day concept with various event organization methods. <br />
+                                2. Simple evaluation software for capturing results and generating ranking lists. <br />
+                                3. Free result sheets to streamline the organizational process. <br />
+                                4. Essential materials like measuring tapes, balls, stopwatches, and more for running the sports day. <br />
+                                5. Free bib numbers and participant certificates. <br /> <br />
+                                Data protection is guaranteed at all times.
                             </div>
                             </div>
                         </div>
@@ -101,7 +111,7 @@ function section2() {
                                 aria-controls="collapseFour"
                             >
                                 <span class="icon_dropdown shadow_v1"><i class="bi bi-arrow-down-right-circle-fill"></i></span>
-                                Advantages of organising an Athletics Kids Cup
+                                Regional Finals
                             </button>
                             </h2>
                             <div
@@ -111,7 +121,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.
+                                Numerous Sports Kid Talent Hunt competitions will be held across Mumbai starting mid-September 2024. The top performers will be invited to one of the five regional finals in January 2025.
                             </div>
                             </div>
                         </div>
@@ -126,7 +136,7 @@ function section2() {
                                 aria-controls="collapseFive"
                             >
                                 <span class="icon_dropdown shadow_v1"><i class="bi bi-arrow-down-right-circle-fill"></i></span>
-                                Advantages of organising an Athletics Kids Cup
+                                Grand Bhubaneswar finals
                             </button>
                             </h2>
                             <div
@@ -136,7 +146,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.
+                                The Sports Kid Talent Hunt Grand Bhubaneswar Final will be held on 15 February 2025 at the Jio Institute's Athletic Center in Bhubaneswar, featuring the top girls and boys in each age category.
                             </div>
                             </div>
                         </div>

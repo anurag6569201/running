@@ -88,7 +88,10 @@
     transition: transform 0.3s ease;
     transform: rotate(-45deg);
 }
-
+.register-button:hover .button-content {
+    transform: rotate(-45deg) scale(1.1);
+    font-weight: 800 !important;
+}
 
 .star {
     position: absolute;

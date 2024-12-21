@@ -16,7 +16,7 @@ function Section3() {
                                 <img className='accordion_img-2' src="images/home/table_accordion_2.png" alt="" />
                             </div>
                             <h1 className='styled_table_accordion_text'>Season 1</h1>
-                            <p>The Athletics Kids Cup is organised in age categories. There is one category per age group. There are rankings for girls and boys. The Athletics Kids Cup 2024/2025 is open to children who will be 15 years old or younger in 2024 (born in 2009 or later).</p>
+                            <p>The Sports Kid Talent Hunt is organized into age categories, with one category per age group. Separate rankings are maintained for girls and boys. The 2024/2025 Talent Hunt is open to children aged 15 or younger in 2024 (born in 2009 or later).</p>
                         </div>
                     </div>
                     <div className="col-md-7">
