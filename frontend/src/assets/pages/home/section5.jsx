@@ -24,7 +24,7 @@ function Section5() {
 
                         <button class="register-button shadow_v1">
                             <div class="button-content">
-                                <span className='mt-3'>Pre-register<br />your school</span>
+                                <span className='mt-3' type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Pre-register<br />your school</span>
                                 <span class="up-arrow">↑</span>
                             </div>
                         </button>

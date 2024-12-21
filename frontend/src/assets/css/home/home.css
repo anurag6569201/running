@@ -97,6 +97,13 @@
         justify-content: center;
         display: flex;
     }
+    .registration_form_model_data .col-md-6{
+        text-align: left !important;
+    }
+    .registration_form_model_data label{
+        margin-bottom: 0 !important;
+        opacity: .8 !important;
+    }
 }
 @media (max-width: 500px) {
     .athelate_row_wrapper .title{

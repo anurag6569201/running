@@ -5,6 +5,9 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import DesignBar from '../home/design_bar';
 import Footer from '../home/footer';
+import Register from '../home/register';
+
+import { Link } from 'react-router-dom';
 
 function BecomeOrganizer() {
   return (
@@ -14,7 +17,7 @@ function BecomeOrganizer() {
         <div className="col-md-5">
           <h1>How easy it is to organise an Athletics Kids Cup</h1>
           <p>We support you in organising an Athletics Kids Cup. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
-          <button className='rules_category_btn shadow_v1'>Pre-register your school <i class="bi bi-arrow-up-right"></i></button>
+          <Register/>
         </div>
         <div className="col-md-5">
           <img className='img-fluid' src="images/org/org1.png" alt="" />
@@ -101,7 +104,7 @@ function BecomeOrganizer() {
                   <div class="card-body">
                     <h5 class="card-title">The three discipline</h5>
                     <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Athletics Kids Cup.</p>
-                    <span class="card-text greenhowW shadow_v1">More Info <i class="bi bi-arrow-up-right"></i></span>
+                    <span class="card-text greenhowW shadow_v1"><Link className='text_style_link' to="/rulesCategory">More Info <i class="bi bi-arrow-up-right"></i></Link></span>
                   </div>
                 </div>
               </div>
@@ -117,7 +120,7 @@ function BecomeOrganizer() {
                   <div class="card-body">
                     <h5 class="card-title">Categories and rules</h5>
                     <p class="card-text">Here you can find out everything about the categories, rules, scoring and conditions of participation.</p>
-                    <span class="card-text bluehowW shadow_v1">More Info <i class="bi bi-arrow-up-right"></i></span>
+                    <span class="card-text bluehowW shadow_v1"><Link className='text_style_link' to="/threeDiscipline">More Info <i class="bi bi-arrow-up-right"></i></Link></span>
                   </div>
                 </div>
               </div>

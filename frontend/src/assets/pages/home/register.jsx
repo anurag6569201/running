@@ -94,7 +94,7 @@ function Register() {
                 aria-hidden="true"
             >
                 <div className="modal-dialog modal-dialog-scrollable modal-lg">
-                    <div className="modal-content p-3 pt-0">
+                <div className="modal-content p-3 pt-0" style={{ borderRadius: '30px' }}>
                         <div className="modal-header model_header_register">
                             <h1 className="modal-title fs-5" id="staticBackdropLabel">
                                 Pre Registration
@@ -109,7 +109,7 @@ function Register() {
                         </div>
                         <div className="modal-body">
                             <form onSubmit={handleSubmit}>
-                                <div className="row">
+                                <div className="row registration_form_model_data">
                                     <div className="col-md-6">
                                         <div className="mb-3">
                                             <label

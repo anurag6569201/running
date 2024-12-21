@@ -37,7 +37,7 @@ function ThreeDiscipline() {
           <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
             <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
-            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
+            <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span></a>
           </div>
           <div className="col-md-5">
             <img className='three1' src="images/compt/three1.png" alt="" />
@@ -52,7 +52,7 @@ function ThreeDiscipline() {
           <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
             <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
-            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
+            <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span></a>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ function ThreeDiscipline() {
           <div className="col-md-5 left_three">
             <h1>Sprint 60 m</h1>
             <p>Whether you use the low start, as the pros do, or the "easier" high start. The objective is clear: sprint to the finish line as fast as possible! Attention: Don't start too early! Anyone can make a false start. But if anyone starts a second time before the starting signal, unfortunately they will be disqualified.</p>
-            <span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span>
+            <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>How to Sprint <i class="bi bi-arrow-up-right"></i></span></a>
           </div>
           <div className="col-md-5">
             <img className='three3' src="images/compt/three3.png" alt="" />

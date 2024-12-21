@@ -11,7 +11,7 @@ function RulesCategory() {
     <br /><br />
     <div className="container mb-5">
       <div className="row justify-content-center">
-        <span className='rules_category_btn'>Handbook And Regulations <i class="bi bi-arrow-up-right"></i></span>
+        <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff',width:'fit-content'}}><span className='rules_category_btn'>Handbook And Regulations <i class="bi bi-arrow-up-right"></i></span></a>
       </div>
     </div>
     <Footer/>

@@ -2,7 +2,7 @@ import React from 'react';
 import "../../css/about_us/about_us.css";
 import DesignBar from '../home/design_bar';
 import Footer from '../home/footer';
-
+import { Link } from 'react-router-dom';
 
 
 function AboutUs() {
@@ -66,13 +66,14 @@ function AboutUs() {
                 <p>We are available to media representatives at any time:  Please contact us via media@athleticskidscup.com</p>
               </div>
               <div className="col-md-3 btn-contactssds">
-                <button type="submit" class="btn btn-send-contact-us shadow_v1">
+                <Link to="/contact"><button type="submit" class="btn btn-send-contact-us shadow_v1">
                   Contact Us
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
                   </svg>
-                </button>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
