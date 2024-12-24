@@ -5,6 +5,7 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from .serializers import ContactFormSerializer
 from django.shortcuts import render, redirect
+from contact.models import ContactForms
 
 def index(request):
     return render(request, 'core/index.html')
@@ -20,6 +21,22 @@ class ContactFormAPIView(APIView):
             email = serializer.validated_data['email']
             subject = serializer.validated_data['subject']
             message = serializer.validated_data['message']
+            
+            if ContactForms.objects.filter(email=email).exists():
+                return Response(
+                    {"error": "This email has already been used to submit a form."},
+                    status=status.HTTP_400_BAD_REQUEST
+                )
+            
+            contact_form = ContactForms.objects.create(
+                full_name=full_name,
+                phone=phone,
+                email=email,
+                subject=subject,
+                message=message
+            )
+            contact_form.save()
+            
             print(full_name, phone, email, subject, message)
 
             email_subject = f"New Contact Form Submission: {subject}"
@@ -37,7 +54,7 @@ class ContactFormAPIView(APIView):
                 email_subject,
                 '',  # No plain text body, just HTML
                 email,  # Sender email
-                ['anuragsingh6569201@gmail.com'],  # Your email to receive the contact form submissions
+                ['kiitscup@gmail.com'],  # Your email to receive the contact form submissions
                 html_message=email_body,  # HTML email body
                 fail_silently=False,
             )
