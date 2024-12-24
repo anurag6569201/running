@@ -12,7 +12,7 @@ function Section4() {
                             <div class="card">
                                 <div class="card-body shadow_v1 info-box date">
                                     <h5 class="card-title">Date</h5>
-                                    <p class="card-text">The Sports Kid Talent Hunt season begins on 16 September 2024, allowing competitions to start from this date. Competitions held until 10 December 2024 will count towards the qualification period for the Regional Finals. Schools are welcome to organize Talent Hunt events after 10 December with our full support.</p>
+                                    <p class="card-text">The Sports Kid Talent Hunt season begins on 6 March 2025, allowing competitions to start from this date. Competitions held until 1 May 2025 will count towards the qualification period for the Regional Finals. Schools are welcome to organize Talent Hunt events after 1 May with our full support.</p>
                                 </div>
                             </div>
                         </div>
@@ -28,8 +28,9 @@ function Section4() {
                             <div class="card">
                                 <div class="card-body shadow_v1 info-box disciplines">
                                     <h5 class="card-title">Disciplines</h5>
-                                    <p class="card-text">The Sports Kid Talent Hunt is a triathlon consisting of the following disciplines:</p>
+                                    <p class="card-text pb-0">The Sports Kid Talent Hunt is a triathlon consisting of the following disciplines:</p>
                                     <ul>
+                                        <li>Atheletics</li>
                                         <li>Sprint 60 m – 1 attempt</li>
                                         <li>Long jump with zone jump – 3 attempts</li>
                                         <li>Ball throw 200 g – 3 attempts</li>

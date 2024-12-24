@@ -30,11 +30,7 @@ function Section3() {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>2009</td>
-                                    <td>G15</td>
-                                    <td>B15</td>
-                                </tr>
+
                                 <tr>
                                     <td>2010</td>
                                     <td>G14</td>
@@ -71,9 +67,14 @@ function Section3() {
                                     <td>B8</td>
                                 </tr>
                                 <tr>
-                                    <td>2017 and younger</td>
-                                    <td>G7*</td>
+                                    <td>2017</td>
+                                    <td>G7</td>
                                     <td>B7</td>
+                                </tr>
+                                <tr>
+                                    <td>2018 and younger</td>
+                                    <td>G6*</td>
+                                    <td>B6</td>
                                 </tr>
                             </tbody>
                         </table>

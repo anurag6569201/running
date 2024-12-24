@@ -61,7 +61,7 @@
     overflow: hidden;
 }
 .video_container_wrapper .section1_swiper_img{
-    object-fit: contain;
+    object-fit: cover;
 }
 video {
     width: 100%;

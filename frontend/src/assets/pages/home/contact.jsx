@@ -37,12 +37,13 @@ function Contact() {
         setLoading(true); 
 
         axios
-            .post("http://localhost:8000/api/contact/", formData)
+            .post("https://running-5ymt.onrender.com/api/contact/", formData)
             .then((response) => {
                 setResponseMessage(response.data.message);
             })
             .catch((error) => {
-                setResponseMessage("An error occurred. Please try again.");
+                const errorMessage = error.response.data.error || "An unexpected error occurred.";
+                setResponseMessage(errorMessage);
             })
             .finally(() => {
                 setLoading(false);

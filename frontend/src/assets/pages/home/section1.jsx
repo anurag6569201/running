@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 import { Link } from 'react-router-dom';
 import Register from './register';
@@ -52,16 +52,20 @@ function Section1() {
                         pagination={{
                         clickable: true,
                         }}
+                        autoplay={{
+                            delay: 2000, 
+                            disableOnInteraction: false, 
+                        }}
                         navigation={true}
-                        modules={[Pagination, Navigation]}
+                        modules={[Pagination, Navigation, Autoplay]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/accordion.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper1.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper2.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper3.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper4.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper5.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper6.png" alt="" /></SwiperSlide>
                     </Swiper>
                     </div>
                 </div>
@@ -72,7 +76,7 @@ function Section1() {
                                 <span className="badge-news">BREAKING NEWS</span>
                             </div>
                             <h1 class="title mt-3">
-                                Football <span>*</span> Chess <br /> Badminton
+                                <span style={{fontSize:'4.5rem'}}>A</span>theletics <span>*</span> Badminton <br /> Cricket
                             </h1>
                             <p class="description">
                                 The Sports Kid Talent Hunt energizes young athletes! This unique initiative focuses on fundamental movement forms—key to excelling in sports like football, badminton, and chess. Through this program, kids enhance their agility for football, precision for badminton, and strategic thinking for chess. Let’s inspire the next generation to move, grow, and develop holistically in their favorite sports!
