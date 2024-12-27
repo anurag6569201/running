@@ -1,9 +1,4 @@
 .about_us_container{
-    background-image: url('images/about_us/runner.png');
-    background-size: contain;
-    background-position-x: right;
-    background-position-y: bottom;
-    background-repeat: no-repeat;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -49,4 +44,11 @@
 .btn-contactssds{
     display: flex;
     justify-content: flex-end;
+}
+.about_us_img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
 }
