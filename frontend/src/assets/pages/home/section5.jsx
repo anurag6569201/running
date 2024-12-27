@@ -14,11 +14,11 @@ function Section5() {
                                 Success is not just about winning medals, it's about giving your best and never giving up.
                             </div>
                         </div>
-
                         <div class="ribbon ribbon-green">
                             <div class="scroll-text-reverse">
-                                #wemovethekids 😊 #wemovethekids 😊 #wemovethekids 😊 #wemovethekids 😊
-                                #wemovethekids 😊 #wemovethekids 😊 #wemovethekids 😊 #wemovethekids 😊
+                                #wemovethekids 😊 #sportsforall 🏅 #youthsports 🏃‍♂️ #futurechampions 🏆
+                                #kidsinmotion ⚡ #athletickids 💪 #sportsdevelopment 🌟 #nextgenathletes 🎯
+                                #kidssportsfun 🏸 #sportsinspiration 💥 #activekids 🏃‍♀️ #playtogether 🏅
                             </div>
                         </div>
 

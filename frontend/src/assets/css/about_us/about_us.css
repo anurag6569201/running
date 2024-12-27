@@ -32,6 +32,8 @@
     background-color: #fff;
     height: 300px;
     width: 500px;
+    object-fit: contain;
+    overflow: hidden;
     border-radius:48% 52% 52% 48% / 82% 83% 17% 18% ;
 }
 .about_us_boxes_wrapper{

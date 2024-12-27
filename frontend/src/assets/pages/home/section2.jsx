@@ -34,7 +34,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                            Children aged 7 to 15 can boost their skills through activities like the 60m sprint for speed, long jump for agility, and ball throw for accuracy. These foundational abilities enhance performance in football, badminton, and even the strategic focus needed in chess. Such events promote all-around development and a love for sports!
+                            Children aged 7 to 15 can enhance their athletic potential through activities like the 60m sprint for speed, long jump for agility, and ball throw for accuracy. These foundational skills are designed to boost performance in athletics, cricket, and badminton. By participating in such events, kids develop all-around abilities and foster a lifelong passion for sports, paving the way for future champions in Odisha, especially in Bhubaneswar!
                             </div>
                             </div>
                         </div>

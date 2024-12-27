@@ -31,9 +31,9 @@ function Section4() {
                                     <p class="card-text pb-0">The Sports Kid Talent Hunt is a triathlon consisting of the following disciplines:</p>
                                     <ul>
                                         <li>Atheletics</li>
-                                        <li>Sprint 60 m – 1 attempt</li>
-                                        <li>Long jump with zone jump – 3 attempts</li>
-                                        <li>Ball throw 200 g – 3 attempts</li>
+                                        <li>Football</li>
+                                        <li>Cricket</li>
+                                        <li>Badminton</li>
                                     </ul>
                                 </div>
                             </div>

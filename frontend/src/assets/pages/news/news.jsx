@@ -6,21 +6,28 @@ import Footer from '../home/footer';
 function News() {
   const newsItems = [
     {
-      title: "Card title 1",
-      description: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      imageSrc: "images/news/n1.png",
-      altText: "News Image 1",
-      link: "#"
+      title: "Badminton Tournament Highlights",
+      description: "Catch all the exciting moments from the recent badminton tournament, showcasing young talent and intense matches.",
+      imageSrc: "images/news/badminton.png",
+      altText: "Badminton Tournament News",
+      link: "#",
     },
     {
-      title: "Card title 2",
-      description: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-      imageSrc: "images/news/n1.png",
-      altText: "News Image 2",
-      link: "#"
+      title: "Cricket T10 League Updates",
+      description: "Relive the thrilling matches and top performances from the latest Cricket T10 league event. Stay tuned for upcoming matches!",
+      imageSrc: "images/news/cricket.png",
+      altText: "Cricket T10 League News",
+      link: "#",
+    },
+    {
+      title: "Running Event Success Stories",
+      description: "Read inspiring stories of participants from the recent running events, celebrating speed, endurance, and determination.",
+      imageSrc: "images/news/running.png",
+      altText: "Running Event News",
+      link: "#",
     },
   ];
-
+  
   return (
     <>
       <div className='container mb-5'>
@@ -45,16 +52,17 @@ function News() {
         </div>
 
         <div className="row mt-5 news_container_links">
-          <h2>News covered on:</h2>
-          <ul>
-            <li><a href="#"><i className="bi bi-arrow-up-right"></i> Athletics Kids Cup makes a debut in Mumbai to move the kids of India</a></li>
-            <li><a href="#"><i className="bi bi-arrow-up-right"></i> Athletics Kids Cup makes a debut in Mumbai to move the kids of India</a></li>
-            <li><a href="#"><i className="bi bi-arrow-up-right"></i> Athletics Kids Cup makes a debut in Mumbai to move the kids of India</a></li>
-            <li><a href="#"><i className="bi bi-arrow-up-right"></i> Athletics Kids Cup makes a debut in Mumbai to move the kids of India</a></li>
-          </ul>
-          <h2 className='mt-4'>Information for media representatives</h2>
-          <p>We are available to media representatives at any time: Please contact us via media@athleticskidscup.com</p>
-        </div>
+        <h2>News covered on:</h2>
+        <ul>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Badminton stars shine at the Sports Kid Talent Hunt in Bhubaneswar</a></li>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Thrilling matches unfold in the Cricket T10 Youth League in Sambalpur</a></li>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Record-breaking runs at the Running Challenge in Koraput</a></li>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Sports Kid Talent Hunt inspires youth across Odisha</a></li>
+        </ul>
+        <h2 className='mt-4'>Information for media representatives</h2>
+        <p>We are available to media representatives at any time: Please contact us via <a href="mailto:media@sample.com">media@sample.com</a></p>
+      </div>
+
       </div>
       <DesignBar />
       <Footer />

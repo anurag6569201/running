@@ -13,11 +13,11 @@ function HowWork() {
             <h1>How it works</h1>
             <p>The Sports Kid Talent Hunt is a major youth initiative in India for children and adolescents aged 7 to 15. Participants will compete in three exciting events:</p>
             <ul>
-              <li><div className="span_circle shadow_v1"></div> 60m Sprint</li>
-              <li><div className="span_circle shadow_v1"></div>Long Jump</li>
-              <li><div className="span_circle shadow_v1"></div>Ball Throw</li>
+              <li><div className="span_circle shadow_v1"></div>Athletics</li>
+              <li><div className="span_circle shadow_v1"></div>Cricket</li>
+              <li><div className="span_circle shadow_v1"></div>Badminton</li>
             </ul>
-            <p>We encourage you to organize the Sports Kid Talent Hunt as your sports day, as it requires meeting just three simple criteria and offers numerous benefits!</p>
+            <p>We encourage you to organize the Sports Kid Talent Hunt as part of your sports day. It requires meeting just three simple criteria and offers numerous benefits!</p>
           </div>
           <div className="col-md-5 howWrow_img_md5">
             <img className='howW_img1' src="images/compt/howW1.png" alt="" />

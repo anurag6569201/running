@@ -1,13 +1,9 @@
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
 import DesignBar from '../home/design_bar';
 import Footer from '../home/footer';
 import Register from '../home/register';
 
 import { Link } from 'react-router-dom';
+import Swiper_slide from '../competition/swiper_v1';
 
 function BecomeOrganizer() {
   return (
@@ -25,72 +21,7 @@ function BecomeOrganizer() {
       </div>
     </div>
     <DesignBar/>
-    <div className="container mt-5">
-        <div className="row justify-content-center">
-          <div className="col-md-12 text-center">
-            <h2>The Athletics Kids Cup in Mumbai is divided into the following five districts.</h2>
-            <p>Participants are automatically assigned to one of the five districts after registration by their school.</p>
-          </div>
-          <div className="col-md-10 mt-5">
-            <Swiper
-                          navigation={true}
-                          modules={[Navigation]}
-                          className="mySwiper"
-                          slidesPerView={4}
-                          spaceBetween={20}
-                          breakpoints={{
-                            320: {
-                              slidesPerView: 1,
-                              spaceBetween: 10,
-                            },
-                            768: {
-                              slidesPerView: 2,
-                              spaceBetween: 15,
-                            },
-                            1024: {
-                              slidesPerView: 3,
-                              spaceBetween: 20,
-                            },
-                            1440: {
-                              slidesPerView: 4,
-                              spaceBetween: 20,
-                            },
-                          }}
-                        >
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
-                    <p className='p-4'>Free organisational material for running the sports day</p>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
-                    <p className='p-4'>Free organisational material for running the sports day</p>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
-                    <p className='p-4'>Free organisational material for running the sports day</p>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
-                    <p className='p-4'>Free organisational material for running the sports day</p>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="swiper_slide_cont">
-                    <img className='shadow_v1' src="images/compt/city1.png" alt="" />
-                    <p className='p-4'>Free organisational material for running the sports day</p>
-                  </div>
-                </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
-    </div>
+    <Swiper_slide/>
     <div className="container mt-5 mb-5">
         <h1 className='howWh1'>The <br />Competition</h1>
         <div className="row justify-content-center">

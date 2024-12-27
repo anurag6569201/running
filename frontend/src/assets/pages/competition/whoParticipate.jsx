@@ -16,8 +16,8 @@ function WhoParticipate() {
             <p>Do you want to join an exciting competition with your age group and have fun with your friends? Were you born in 2009 or later? Then the Sports Kid Talent Hunt is perfect for you! Compete in three thrilling disciplines:</p>
             <ul>
                 <li><div className="span_circle shadow_v1"></div> 60m Sprint</li>
-                <li><div className="span_circle shadow_v1"></div>Long Jump</li>
-                <li><div className="span_circle shadow_v1"></div>Ball Throw</li>
+                <li><div className="span_circle shadow_v1"></div>Cricket - T10</li>
+                <li><div className="span_circle shadow_v1"></div>Badminton</li>
               </ul>
             <p>Your total score from all three events determines your ranking. To participate, simply convince your school to organize a Sports Kid Talent Hunt event!.</p>
           </div>

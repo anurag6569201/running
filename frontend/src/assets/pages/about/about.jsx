@@ -10,8 +10,8 @@ function AboutUs() {
     <>
       <div className='container-fluid about_us_container'>
         <div className="about_us_content pt-5">
-          <h1>The Athletics Kids Cup is a competition format for children and adolescents based on the successful UBS Kids Cup format in Switzerland.</h1>
-          <p className='pt-2'>The Dspowerparts team, athletics enthusiasts from Switzerland, in co-operation with UBS India, are now bringing a similar initiative to India. The Athletics Kids Cup is a standalone initiative tailored to the country's unique situation.</p>
+          <h1>The Athletics Kids Cup is a competition format for children and adolescents based on the successful Sports Kid Talent Hunt format in Europe.</h1>
+          <p className='pt-2'>The Dspowerparts team, athletics enthusiasts from Europe, The Sports Kid Talent Hunt is a standalone initiative tailored to the country's unique situation.</p>
         </div>
       </div>
       <DesignBar />
@@ -19,12 +19,12 @@ function AboutUs() {
         <div className="row team_container_row">
           <div className="col-md-3">
             <h1>Our team</h1>
-            <p>Dspowerparts and its partners ensure that the Athletics Kids Cup gets children in India moving.</p>
-            <p>As many atheltes as possible should be able to have fun running, jumping and throwing.</p>
+            <p>Dspowerparts and its partners ensure that the Sports Kid Talent Hunt gets children in India moving.</p>
+            <p>As many atheltes as possible should be able to have fun Running, Football and Cricket.</p>
           </div>
           <div className="col-md-6 designer_frame_md">
             <div className="designer_frame_team shadow_v1">
-
+              <img style={{objectFit:'contain'}} src="images/about_us/team.png" alt="" />
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ function AboutUs() {
             <div className="row justify-content-center">
               <div className="col-md-7">
                 <h2>Information for media representatives</h2>
-                <p>We are available to media representatives at any time:  Please contact us via media@athleticskidscup.com</p>
+                <p>We are available to media representatives at any time:  Please contact us via media@sample.com</p>
               </div>
               <div className="col-md-3 btn-contactssds">
                 <Link to="/contact"><button type="submit" class="btn btn-send-contact-us shadow_v1">

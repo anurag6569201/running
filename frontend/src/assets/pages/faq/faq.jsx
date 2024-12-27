@@ -6,30 +6,31 @@ import DesignBar from '../home/design_bar';
 const faqItems = [
   {
     id: "One",
-    title: "Requirements of an Athletics Kids Cup",
-    content: "List of requirements and details about organizing the Athletics Kids Cup.",
+    title: "Requirements for the Sports Kid Talent Hunt",
+    content: "Learn about the essential requirements and steps to organize a successful Sports Kid Talent Hunt event.",
   },
   {
     id: "Two",
-    title: "Advantages of organising an Athletics Kids Cup",
-    content: "Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.",
+    title: "Benefits of Participating in the Talent Hunt",
+    content: "Discover how the event promotes fitness, teamwork, and skill development among young athletes.",
   },
   {
     id: "Three",
-    title: "Advantages of organising an Athletics Kids Cup",
-    content: "Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.",
+    title: "How to Register for the Sports Kid Talent Hunt",
+    content: "Find out how schools and participants can register for the event, including key deadlines.",
   },
   {
     id: "Four",
-    title: "Advantages of organising an Athletics Kids Cup",
-    content: "Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.",
+    title: "Events Included in the Talent Hunt",
+    content: "Details about the events like 60m Sprint, Long Jump, Ball Throw, and how participants are evaluated.",
   },
   {
     id: "Five",
-    title: "Advantages of organising an Athletics Kids Cup",
-    content: "Benefits of organizing an Athletics Kids Cup, including health, teamwork, and fun.",
+    title: "Regional Finals and Grand Final",
+    content: "Information on regional finals and how top performers qualify for the Grand Bhubaneswar Final.",
   },
 ];
+
 
 function FAQ() {
   return (
