@@ -153,7 +153,7 @@ function section2() {
                         </div>
                         </div>
                         <div className="col-md-5 accordion_image">
-                            <img src="images/home/accordion.png" alt="" />
+                            <img loading='lazy' src="images/home/accordion.png" alt="" />
                         </div>
                     </div>
                 </div>

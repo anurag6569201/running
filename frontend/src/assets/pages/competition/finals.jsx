@@ -17,7 +17,7 @@ function Finals() {
         </div>
       </div>
       <div className="container-fluid d-flex justify-content-center mb-5">
-        <img className='desc_img' src="images/compt/threeDesc.png" alt="" />
+        <img loading='lazy' className='desc_img' src="images/compt/threeDesc.png" alt="" />
       </div>
       <DesignBar />
       <Swiper_slide />
@@ -30,7 +30,7 @@ function Finals() {
 
           </div>
           <div className="col-md-5 ground_img">
-            <img style={{borderRadius:'30px'}} src="images/compt/ground.png" alt="" />
+            <img loading='lazy' style={{borderRadius:'30px'}} src="images/compt/ground.png" alt="" />
           </div>
         </div>
       </div>

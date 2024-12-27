@@ -24,7 +24,7 @@ function AboutUs() {
           </div>
           <div className="col-md-6 designer_frame_md">
             <div className="designer_frame_team shadow_v1">
-              <img style={{objectFit:'contain'}} src="images/about_us/team.png" alt="" />
+              <img loading='lazy' style={{objectFit:'contain'}} src="images/about_us/team.png" alt="" />
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ function AboutUs() {
                   <div class="card-body shadow_v1 info-box date">
                     <h5 class="card-title">Main sponsor and enabler</h5>
                     <div className='d-flex justify-content-center'>
-                      <img src="images/home/logo.png" alt="" />
+                      <img loading='lazy' src="images/home/logo.png" alt="" />
                     </div>
                     <p class="card-text">UBS is committed to drive sustainable social impact among its communities with a focus on enabling children and young adults to achieve their potential through catalytic interventions around education, wellbeing and the environment.</p>
                   </div>
@@ -50,7 +50,7 @@ function AboutUs() {
                   <div class="card-body shadow_v1 info-box point-system">
                     <h5 class="card-title">Execution partner</h5>
                     <div className='d-flex justify-content-center'>
-                      <img src="images/home/logo.png" alt="" />
+                      <img loading='lazy' src="images/home/logo.png" alt="" />
                     </div>
                     <p class="card-text">Striders Miles is a central partner in the realisation of the Athletics Kids Cup. The Striders team has supported the Athletics Kids Cup from the very beginning and is the local contact for all schools and ensures the smooth organisation of the initiative.</p>
                   </div>

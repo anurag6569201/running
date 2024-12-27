@@ -36,7 +36,7 @@ function News() {
           {newsItems.map((news, index) => (
             <div className="col" key={index}>
               <article className="card news_cards_stack shadow_v1">
-                <img src={news.imageSrc} className="card-img-top" alt={news.altText} />
+                <img loading='lazy' src={news.imageSrc} className="card-img-top" alt={news.altText} />
                 <div className="card-body">
                   <h5 className="card-title">{news.title}</h5>
                   <p className="card-text">{news.description}</p>

@@ -41,31 +41,31 @@ function Swiper_slide() {
                         >
                             <SwiperSlide>
                                 <div className="swiper_slide_cont">
-                                    <img className='shadow_v1' src="images/compt/bbsr.png" alt="Bhubaneswar" />
+                                    <img loading='lazy' className='shadow_v1' src="images/compt/bbsr.png" alt="Bhubaneswar" />
                                     <p className='p-4'>Free organisational material for running the sports day in Bhubaneswar</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="swiper_slide_cont">
-                                    <img className='shadow_v1' src="images/compt/koraput.png" alt="Koraput" />
+                                    <img loading='lazy' className='shadow_v1' src="images/compt/koraput.png" alt="Koraput" />
                                     <p className='p-4'>Free organisational material for running the sports day in Koraput</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="swiper_slide_cont">
-                                    <img className='shadow_v1' src="images/compt/puri.png" alt="Puri" />
+                                    <img loading='lazy' className='shadow_v1' src="images/compt/puri.png" alt="Puri" />
                                     <p className='p-4'>Free organisational material for running the sports day in Puri</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="swiper_slide_cont">
-                                    <img className='shadow_v1' src="images/compt/angul.png" alt="Angul" />
+                                    <img loading='lazy' className='shadow_v1' src="images/compt/angul.png" alt="Angul" />
                                     <p className='p-4'>Free organisational material for running the sports day in Angul</p>
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="swiper_slide_cont">
-                                    <img className='shadow_v1' src="images/compt/sambal.png" alt="Sambalpur" />
+                                    <img loading='lazy' className='shadow_v1' src="images/compt/sambal.png" alt="Sambalpur" />
                                     <p className='p-4'>Free organisational material for running the sports day in Sambalpur</p>
                                 </div>
                             </SwiperSlide>

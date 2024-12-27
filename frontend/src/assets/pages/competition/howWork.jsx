@@ -20,7 +20,7 @@ function HowWork() {
             <p>We encourage you to organize the Sports Kid Talent Hunt as part of your sports day. It requires meeting just three simple criteria and offers numerous benefits!</p>
           </div>
           <div className="col-md-5 howWrow_img_md5">
-            <img className='howW_img1' src="images/compt/howW1.png" alt="" />
+            <img loading='lazy' className='howW_img1' src="images/compt/howW1.png" alt="" />
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@ function HowWork() {
         <div className="row how_work_wrapper_row howWcontainer1 justify-content-center">
           <div className="row justify-content-center align-items-center pt-5 pb-5">
             <div className="col-md-5 accordion_image">
-              <img src="images/compt/howW2.png" alt="" />
+              <img loading='lazy' src="images/compt/howW2.png" alt="" />
             </div>
             <div className="col-md-5">
             <div class="accordion" id="kidsCupAccordion">
@@ -158,7 +158,7 @@ function HowWork() {
             <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW3.png" class="img-fluid rounded-start howWimg1" alt="..." />
+                  <img loading='lazy' src="images/compt/howW3.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -174,7 +174,7 @@ function HowWork() {
             <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW4.png" class="img-fluid rounded-start howWimg1" alt="..." />
+                  <img loading='lazy' src="images/compt/howW4.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">

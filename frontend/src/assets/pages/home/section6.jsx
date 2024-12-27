@@ -15,7 +15,7 @@ function Section6() {
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card card_types h-100">
-                                <img src="images/home/type1.png" class="card-img-top" alt="..." />
+                                <img loading='lazy' src="images/home/type1.png" class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <span className='helper_title_text'>Our</span>
                                     <h5 class="card-title">Commitment</h5>
@@ -25,7 +25,7 @@ function Section6() {
                         </div>
                         <div class="col">
                             <div class="card card_types h-100">
-                                <img src="images/home/type2.png" class="card-img-top" alt="..." />
+                                <img loading='lazy' src="images/home/type2.png" class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <span className='helper_title_text'>Your</span>
                                     <h5 class="card-title">Card title</h5>
@@ -35,7 +35,7 @@ function Section6() {
                         </div>
                         <div class="col">
                             <div class="card card_types h-100">
-                                <img src="images/home/type3.png" class="card-img-top" alt="..." />
+                                <img loading='lazy' src="images/home/type3.png" class="card-img-top" alt="..." />
                                 <div class="card-body">
                                     <span className='helper_title_text'>Shared</span>
                                     <h5 class="card-title">Card title</h5>
@@ -65,12 +65,12 @@ function Section6() {
                             modules={[Pagination, Navigation, Autoplay]}
                             className="mySwiper"
                         >
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper1.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper2.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper3.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper4.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper5.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper6.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper1.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper2.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper3.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper4.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper5.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper6.png" alt="" /></SwiperSlide>
                         </Swiper>
                         </div>
                     </div>

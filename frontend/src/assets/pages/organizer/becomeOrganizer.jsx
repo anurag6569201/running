@@ -16,7 +16,7 @@ function BecomeOrganizer() {
           <Register/>
         </div>
         <div className="col-md-5">
-          <img className='img-fluid' src="images/org/org1.png" alt="" />
+          <img loading='lazy' className='img-fluid' src="images/org/org1.png" alt="" />
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@ function BecomeOrganizer() {
             <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW3.png" class="img-fluid rounded-start howWimg1" alt="..." />
+                  <img loading='lazy' src="images/compt/howW3.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
@@ -45,7 +45,7 @@ function BecomeOrganizer() {
             <div class="card mb-3 shadow_v1">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="images/compt/howW4.png" class="img-fluid rounded-start howWimg1" alt="..." />
+                  <img loading='lazy' src="images/compt/howW4.png" class="img-fluid rounded-start howWimg1" alt="..." />
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">

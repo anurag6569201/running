@@ -10,10 +10,10 @@ function Section3() {
                     <div className="col-md-3">
                         <div className="row table_accordion_wrapper_md-4">
                             <div className="col-md-12">
-                                <img className='accordion_img-1' src="images/home/table_accordion_1.png" alt="" />
+                                <img loading='lazy' className='accordion_img-1' src="images/home/table_accordion_1.png" alt="" />
                             </div>
                             <div className="col-md-12 accordion_img-2_wrapper">
-                                <img className='accordion_img-2' src="images/home/table_accordion_2.png" alt="" />
+                                <img loading='lazy' className='accordion_img-2' src="images/home/table_accordion_2.png" alt="" />
                             </div>
                             <h1 className='styled_table_accordion_text'>Season 1</h1>
                             <p>The Sports Kid Talent Hunt is organized into age categories, with one category per age group. Separate rankings are maintained for girls and boys. The 2024/2025 Talent Hunt is open to children aged 15 or younger in 2024 (born in 2009 or later).</p>

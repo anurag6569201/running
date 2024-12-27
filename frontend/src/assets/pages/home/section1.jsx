@@ -20,7 +20,7 @@ function Section1() {
                     <div className="row">
                         <div className="col-md-2">
                             <div className="arrow start-0">
-                                <img src="images/home/arrow.png" alt="Arrow" />
+                                <img loading='lazy' src="images/home/arrow.png" alt="Arrow" />
                             </div>
                         </div>
                         <div className="col-md-8">
@@ -33,7 +33,7 @@ function Section1() {
                         </div>
                         <div className="col-md-2">
                             <div className="wow-text">
-                                <img src="images/home/wow.png" alt="Wow Text" />
+                                <img loading='lazy' src="images/home/wow.png" alt="Wow Text" />
                             </div>
                         </div>
                         <div className="col-md-12">
@@ -60,12 +60,12 @@ function Section1() {
                         modules={[Pagination, Navigation, Autoplay]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper1.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper2.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper3.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper4.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper5.png" alt="" /></SwiperSlide>
-                        <SwiperSlide><img className='section1_swiper_img' src="images/home/sample_swiper6.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper1.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper2.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper3.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper4.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper5.png" alt="" /></SwiperSlide>
+                        <SwiperSlide><img loading='lazy' className='section1_swiper_img' src="images/home/sample_swiper6.png" alt="" /></SwiperSlide>
                     </Swiper>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ function Section1() {
                             <Register/>
                         </div>
                         <div className="col-md-5 athelate_image_wrapper">
-                            <img className='athelate_image' src="images/home/athelate.png" alt="" />
+                            <img loading='lazy' className='athelate_image' src="images/home/athelate.png" alt="" />
                         </div>
                     </div>
                 </div>

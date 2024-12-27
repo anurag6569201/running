@@ -16,7 +16,7 @@ function ThreeDiscipline() {
             <p>Every child knows these three forms of movement just from playing with their friends. They are required in almost every sport and are practised and perfected in athletics.</p>
           </div>
           <div className="col-md-8 d-flex justify-content-center">
-            <img className='desc_img' src="images/compt/threeDesc.png" alt="" />
+            <img loading='lazy' className='desc_img' src="images/compt/threeDesc.png" alt="" />
           </div>
         </div>
       </div>
@@ -42,14 +42,14 @@ function ThreeDiscipline() {
             <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>Rules of Sprint <i class="bi bi-arrow-up-right"></i></span></a>
           </div>
           <div className="col-md-5">
-            <img className='three1' src="images/compt/three1.png" alt="" />
+            <img loading='lazy' className='three1' src="images/compt/three1.png" alt="" />
           </div>
         </div>
       </div>
       <div className="container three_container_2 mb-5">
         <div className="row justify-content-center align-items-center">
         <div className="col-md-5">
-            <img className='three2' src="images/compt/cricket.png" alt="" />
+            <img loading='lazy' className='three2' src="images/compt/cricket.png" alt="" />
           </div>
           <div className="col-md-5 left_three">
             <h1>Cricket - T10</h1>
@@ -66,7 +66,7 @@ function ThreeDiscipline() {
             <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>Rules of Badminton <i class="bi bi-arrow-up-right"></i></span></a>
           </div>
           <div className="col-md-5">
-            <img className='three3' src="images/compt/badminton.png" alt="" />
+            <img loading='lazy' className='three3' src="images/compt/badminton.png" alt="" />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ function DesignBar() {
     return (
         <>
             <div className="design_bar">
-                <img src="images/home/border.png" alt="" />
+                <img loading='lazy' src="images/home/border.png" alt="" />
             </div>
         </>
     )

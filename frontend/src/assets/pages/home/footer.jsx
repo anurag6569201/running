@@ -12,7 +12,7 @@ function Footer() {
                             <div className="footer_images_wrapper">
 
                                 <span class="logo-section">
-                                    <img src="images/home/logo.png" alt="Athletics Icon" />
+                                    <img loading='lazy' src="images/home/logo.png" alt="Athletics Icon" />
                                 </span>
 
                                 <span>

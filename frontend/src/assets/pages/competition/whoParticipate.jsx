@@ -9,7 +9,7 @@ function WhoParticipate() {
       <div className="container particcontainer mb-5">
         <div className="row partic_row_wrapper">
           <div className="col-md-5">
-            <img className='img-fluid' src="images/compt/parT1.png" alt="" />
+            <img loading='lazy' className='img-fluid' src="images/compt/parT1.png" alt="" />
           </div>
           <div className="col-md-5">
             <h1>Who can participate?</h1>
