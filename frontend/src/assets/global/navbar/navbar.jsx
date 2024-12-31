@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav class="navbar">
         <div class="container">
-            <Link class="navbar-brand" to="/"><img loading='lazy' src='images/home/logo.png' alt="" /></Link>
+            <Link class="navbar-brand" to="/"><img loading='lazy' src='images/home/logo1.png' alt="KIDS TALENT HUNT" /></Link>
             <div className='extra_navbar_brand'>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

@@ -34,7 +34,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                            Children aged 7 to 15 can enhance their athletic potential through activities like the 60m sprint for speed, long jump for agility, and ball throw for accuracy. These foundational skills are designed to boost performance in athletics, cricket, and badminton. By participating in such events, kids develop all-around abilities and foster a lifelong passion for sports, paving the way for future champions in Odisha, especially in Bhubaneswar!
+                            Children aged 7 to 16 can enhance their athletic potential through activities like the 60m sprint for speed, Football for agility, and Cricket. These foundational skills are designed to boost performance in athletics, cricket, and Football. By participating in such events, kids develop all-around abilities and foster a lifelong passion for sports, paving the way for future champions in Odisha, especially in Bhubaneswar!
                             </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Numerous Sports Kid Talent Hunt competitions will be held across Mumbai starting mid-September 2024. The top performers will be invited to one of the five regional finals in January 2025.
+                            Numerous Sports Kid Talent Hunt competitions will be held across Bhubaneswar. The top performers will be invited to one of the five regional finals.
                             </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ function section2() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                The Sports Kid Talent Hunt Grand Bhubaneswar Final will be held on 15 February 2025 at the Jio Institute's Athletic Center in Bhubaneswar, featuring the top girls and boys in each age category.
+                                The Sports Kid Talent Hunt Grand Bhubaneswar Final will be held at the Sports Accademy Bhubaneswar, featuring the top girls and boys in each age category.
                             </div>
                             </div>
                         </div>

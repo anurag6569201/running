@@ -25,7 +25,7 @@ function Section1() {
                         </div>
                         <div className="col-md-8">
                             <h1 className="headline">
-                                <span>Odisha Sports</span> joins the team!
+                                <span>India Sports Talent Hunt</span>
                             </h1>
                             <p className="text-muted">
                                 'The Sports Kid Talent Hunt is very familiar and proud to be the part of this and help to make it success'.
@@ -75,11 +75,11 @@ function Section1() {
                             <div className="d-flex justify-content-left mb-3">
                                 <span className="badge-news">BREAKING NEWS</span>
                             </div>
-                            <h1 class="title mt-3" style={{fontSize:'3rem'}}>
-                                <span style={{fontSize:'3.7rem'}}>A</span>theletics <span>*</span> <span style={{fontSize:'3.7rem',color:'#e2d46c'}}>B</span>adminton <br /> <span style={{fontSize:'3.7rem',color:'#3068dd'}}>C</span>ricket
+                            <h1 class="title mt-3" style={{fontSize:'2rem'}}>
+                                <span style={{fontSize:'3.7rem'}}>A</span>theletics <span>*</span> <span style={{fontSize:'3.7rem'}}>B</span>adminton <span style={{fontSize:'3.7rem'}}>C</span>ricket
                             </h1>
                             <p class="description">
-                            The Sports Kid Talent Hunt ignites the spirit of young athletes in Odisha, with a special focus on Bhubaneswar! This platform emphasizes essential skills crucial for excelling in athletics, cricket, and badminton. Through this initiative, kids refine their speed and endurance for athletics, master precision and teamwork for cricket, and develop agility and focus for badminton. Let’s nurture the next generation of sports stars to thrive, grow, and shine in their favorite disciplines!
+                            The Sports Kid Talent Hunt ignites the spirit of young athletes in Odisha, with a special focus on Bhubaneswar! This platform emphasizes essential skills crucial for excelling in athletics, cricket, and badminton. Through this initiative, kids refine their speed and endurance for athletics, master precision and teamwork for cricket, and develop agility and focus for Football. Let’s nurture the next generation of sports stars to thrive, grow, and shine in their favorite disciplines!
                             </p>
                             <Register/>
                         </div>

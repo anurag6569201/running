@@ -1,0 +1,9 @@
+frontend - https://runningwebsite.vercel.app/
+backend - https://running-5ymt.onrender.com/
+admin url - https://running-5ymt.onrender.com/admin
+admin username = testing_anurag
+admin password = testing@1234
+
+
+backend at render.com
+frontend at vercel.com

@@ -11,7 +11,7 @@ function HowWork() {
         <div className="row justify-content-center howWrow">
           <div className="col-md-5">
             <h1>How it works</h1>
-            <p>The Sports Kid Talent Hunt is a major youth initiative in India for children and adolescents aged 7 to 15. Participants will compete in three exciting events:</p>
+            <p>The Sports Kid Talent Hunt is a major youth initiative in India for children and adolescents aged 7 to 16. Participants will compete in three exciting events:</p>
             <ul>
               <li><div className="span_circle shadow_v1"></div>Athletics</li>
               <li><div className="span_circle shadow_v1"></div>Cricket</li>
@@ -116,7 +116,7 @@ function HowWork() {
                             data-bs-parent="#kidsCupAccordion"
                             >
                             <div class="accordion-body">
-                                Numerous Sports Kid Talent Hunt competitions will be held across Mumbai starting mid-September 2024. The top performers will be invited to one of the five regional finals in January 2025.
+                                Numerous Sports Kid Talent Hunt competitions will be held across Bhubaneswar. The top performers will be invited to one of the five regional finals in January 2025.
                             </div>
                             </div>
                         </div>

@@ -33,7 +33,6 @@ function Section4() {
                                         <li>Atheletics</li>
                                         <li>Football</li>
                                         <li>Cricket</li>
-                                        <li>Badminton</li>
                                     </ul>
                                 </div>
                             </div>

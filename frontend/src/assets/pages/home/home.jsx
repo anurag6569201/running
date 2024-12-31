@@ -14,7 +14,6 @@ function Home() {
     return (
         <>
             <Section1/>
-            <DesignBar/>
             <Section2/>
             <Section3/>
             <Section4/>
