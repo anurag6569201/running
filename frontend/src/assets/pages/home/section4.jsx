@@ -31,7 +31,7 @@ function Section4() {
                                     <p class="card-text pb-0">The Sports Kid Talent Hunt is a triathlon consisting of the following disciplines:</p>
                                     <ul>
                                         <li>Atheletics</li>
-                                        <li>Football</li>
+                                        <li>Badminton</li>
                                         <li>Cricket</li>
                                     </ul>
                                 </div>

@@ -2,3 +2,14 @@
     overflow: hidden;
     height: 90px;
 }
+
+.design_images{
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.design_images img{
+    height: inherit;
+}

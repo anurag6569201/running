@@ -15,8 +15,10 @@ function ThreeDiscipline() {
             </h1>
             <p>Every child knows these three forms of movement just from playing with their friends. They are required in almost every sport and are practised and perfected in athletics.</p>
           </div>
-          <div className="col-md-8 d-flex justify-content-center">
-            <img loading='lazy' className='desc_img' src="images/compt/threeDesc.png" alt="" />
+          <div className="col-md-8 d-flex justify-content-center threedesc_img" style={{height:'200px'}}>
+              <img loading='lazy' src='images/home/running.svg' alt="KIDS TALENT HUNT" />
+              <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
+              <img loading='lazy' src='images/home/cricket.svg' alt="" />
           </div>
         </div>
       </div>

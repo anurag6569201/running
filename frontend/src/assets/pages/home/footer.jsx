@@ -12,7 +12,15 @@ function Footer() {
                             <div className="footer_images_wrapper">
 
                                 <span class="logo-section">
-                                    <img loading='lazy' src="images/home/logo.png" alt="Athletics Icon" />
+                                <div class="navbar-brand" style={{display:'flex'}}>
+                                    <img loading='lazy' src='images/home/running.svg' alt="KIDS TALENT HUNT" />
+                                    <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
+                                    <img loading='lazy' src='images/home/cricket.svg' alt="" />
+                                    <div style={{display:'flex',alignItems:'left',flexDirection:'column'}}>
+                                        <span>KIDS</span>
+                                        <span>TALENT HUNT</span>
+                                    </div>
+                                </div>
                                 </span>
 
                                 <span>

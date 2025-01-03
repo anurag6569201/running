@@ -17,7 +17,11 @@ function Finals() {
         </div>
       </div>
       <div className="container-fluid d-flex justify-content-center mb-5">
-        <img loading='lazy' className='desc_img' src="images/compt/threeDesc.png" alt="" />
+      <div className="col-md-8 d-flex justify-content-center threedesc_img" style={{height:'200px'}}>
+              <img loading='lazy' src='images/home/running.svg' alt="KIDS TALENT HUNT" />
+              <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
+              <img loading='lazy' src='images/home/cricket.svg' alt="" />
+          </div>
       </div>
       <DesignBar />
       <Swiper_slide />

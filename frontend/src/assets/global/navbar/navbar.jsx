@@ -6,7 +6,15 @@ function Navbar() {
   return (
     <nav class="navbar">
         <div class="container">
-            <Link class="navbar-brand" to="/"><img loading='lazy' src='images/home/logo1.png' alt="KIDS TALENT HUNT" /></Link>
+            <Link class="navbar-brand" to="/" style={{display:'flex'}}>
+                <img loading='lazy' src='images/home/running.svg' alt="KIDS TALENT HUNT" />
+                <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
+                <img loading='lazy' src='images/home/cricket.svg' alt="" />
+                <div style={{display:'flex',alignItems:'left',flexDirection:'column'}}>
+                    <span>KIDS</span>
+                    <span>TALENT HUNT</span>
+                </div>
+            </Link>
             <div className='extra_navbar_brand'>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -15,7 +23,15 @@ function Navbar() {
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img loading='lazy' src='images/home/logo.png' alt="" /></h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <img loading='lazy' src='images/home/running.svg' alt="KIDS TALENT HUNT" />
+                    <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
+                    <img loading='lazy' src='images/home/cricket.svg' alt="" />
+                    <div style={{display:'flex',alignItems:'left',flexDirection:'column'}}>
+                        <span>KIDS</span>
+                        <span>TALENT HUNT</span>
+                    </div>
+                    </h5>
                     <button type="button" class="btn-close shadow_v1" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">

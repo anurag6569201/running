@@ -9,11 +9,13 @@ import Footer from './footer';
 import DesignBar from './design_bar';
 
 import "../../css/home/home.css";
+import DesignImages from './design_images';
 function Home() {
 
     return (
         <>
             <Section1/>
+            <DesignImages/>
             <Section2/>
             <Section3/>
             <Section4/>

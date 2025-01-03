@@ -13,7 +13,7 @@ function Section3() {
                                 <img loading='lazy' className='accordion_img-1' src="images/home/table_accordion_1.png" alt="" />
                             </div>
                             <div className="col-md-12 accordion_img-2_wrapper">
-                                <img loading='lazy' className='accordion_img-2' src="images/home/table_accordion_2.png" alt="" />
+                                <img loading='lazy' className='accordion_img-2' src="images/home/table_accordion_2.png" alt="" style={{opacity:'0'}}/>
                             </div>
                             <h1 className='styled_table_accordion_text'>Season 1</h1>
                             <p>The Sports Kid Talent Hunt is organized into age categories, with one category per age group. Separate rankings are maintained for girls and boys. The 2025/2026 Talent Hunt is open to children aged 16 or younger in 2025 (born in 2010 or later).</p>

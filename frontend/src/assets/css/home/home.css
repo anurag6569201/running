@@ -104,6 +104,9 @@
         margin-bottom: 0 !important;
         opacity: .8 !important;
     }
+    .threedesc_img{
+        height: 150px;
+    }
 }
 @media (max-width: 500px) {
     .athelate_row_wrapper .title{
@@ -173,5 +176,8 @@
     .designer_frame_md{
         justify-content: center;
         display: flex;
+    }
+    .threedesc_img{
+        height: 100px !important;
     }
 }

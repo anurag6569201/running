@@ -32,11 +32,9 @@ function DocumentsDownload() {
               <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Cricket - T10</span></span></a>
               </div>
               <div className="col-md-4"></div>
+
               <div className="col-md-4">
               <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Badminton</span></span></a>
-              </div>
-              <div className="col-md-4">
-              <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Football</span></span></a>
               </div>
             </div>
             <div className="row documents_row p-3">
