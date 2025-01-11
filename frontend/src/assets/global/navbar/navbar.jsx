@@ -11,7 +11,7 @@ function Navbar() {
                 <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
                 <img loading='lazy' src='images/home/cricket.svg' alt="" />
                 <div style={{display:'flex',alignItems:'left',flexDirection:'column'}}>
-                    <span>KIDS</span>
+                    <span class="uper_nav_text">KIDS</span>
                     <span>TALENT HUNT</span>
                 </div>
             </Link>
@@ -28,7 +28,7 @@ function Navbar() {
                     <img loading='lazy' src='images/home/badminton.svg' alt="KIDS TALENT HUNT" />
                     <img loading='lazy' src='images/home/cricket.svg' alt="" />
                     <div style={{display:'flex',alignItems:'left',flexDirection:'column'}}>
-                        <span>KIDS</span>
+                        <span class="uper_nav_text">KIDS</span>
                         <span>TALENT HUNT</span>
                     </div>
                     </h5>

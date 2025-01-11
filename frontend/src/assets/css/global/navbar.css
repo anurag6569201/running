@@ -112,3 +112,7 @@
 #offcanvasNavbarLabel{
     display: flex;
 }
+.uper_nav_text{
+    color: #e70608;
+    font-weight: 700;
+}
