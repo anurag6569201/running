@@ -6,7 +6,6 @@ import Section5 from './section5';
 import Section6 from './section6';
 import Contact from './contact';
 import Footer from './footer';
-import DesignBar from './design_bar';
 
 import "../../css/home/home.css";
 import DesignImages from './design_images';

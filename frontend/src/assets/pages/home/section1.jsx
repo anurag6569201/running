@@ -25,7 +25,7 @@ function Section1() {
                         </div>
                         <div className="col-md-8">
                             <h1 className="headline">
-                                <span>India Sports Talent Hunt</span>
+                                <span>International Sports Talent Hunt</span>
                             </h1>
                             <p className="text-muted">
                                 'The Sports Kid Talent Hunt is very familiar and proud to be the part of this and help to make it success'.

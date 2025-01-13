@@ -150,4 +150,6 @@
     clip-path: polygon(50% 0, 100% 46%, 82% 100%, 18% 100%, 0 44%);
     border-radius: 20px;  /* Apply border-radius to simulate rounded corners */
   }
-  
+.particcontainer ul li:nth-child(2)  .span_circle{
+    background-color: red !important;
+}

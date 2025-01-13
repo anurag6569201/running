@@ -29,7 +29,7 @@ function DocumentsDownload() {
               <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">60 m sprint</span></span></a>
               </div>
               <div className="col-md-4">
-              <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Cricket - T10</span></span></a>
+              <a class="nav-link active" aria-current="page" href='documents/sample.pdf' target='_blank'><span className='navbar_arrow'><i class="bi bi-arrow-down-right-circle"></i><span className="navbar_text">Cricket </span></span></a>
               </div>
               <div className="col-md-4"></div>
 

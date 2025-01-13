@@ -4,6 +4,7 @@ import Register from '../home/register';
 
 import { Link } from 'react-router-dom';
 import Swiper_slide from '../competition/swiper_v1';
+import DesignImages from '../home/design_images';
 
 function BecomeOrganizer() {
   return (
@@ -11,8 +12,8 @@ function BecomeOrganizer() {
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-md-5">
-          <h1>How easy it is to organise an Athletics Kids Cup</h1>
-          <p>We support you in organising an Athletics Kids Cup. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
+          <h1>How easy it is to organise an Athletics Talent Hunt</h1>
+          <p>We support you in organising an Athletics Talent Hunt. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
           <Register/>
         </div>
         <div className="col-md-5">
@@ -20,7 +21,7 @@ function BecomeOrganizer() {
         </div>
       </div>
     </div>
-    <DesignBar/>
+    <DesignImages/>
     <Swiper_slide/>
     <div className="container mt-5 mb-5">
         <h1 className='howWh1'>The <br />Competition</h1>
@@ -34,7 +35,7 @@ function BecomeOrganizer() {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">The three discipline</h5>
-                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Athletics Kids Cup.</p>
+                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Athletics Talent Hunt.</p>
                     <span class="card-text greenhowW shadow_v1"><Link className='text_style_link' to="/rulesCategory">More Info <i class="bi bi-arrow-up-right"></i></Link></span>
                   </div>
                 </div>

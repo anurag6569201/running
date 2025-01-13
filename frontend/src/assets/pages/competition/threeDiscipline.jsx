@@ -1,7 +1,7 @@
 import React from 'react';
 import DesignBar from '../home/design_bar';
 import Footer from '../home/footer';
-
+import DesignImages from '../home/design_images';
 
 function ThreeDiscipline() {
   return (
@@ -22,7 +22,7 @@ function ThreeDiscipline() {
           </div>
         </div>
       </div>
-      <DesignBar />
+      <DesignImages />
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-12">
@@ -30,7 +30,7 @@ function ThreeDiscipline() {
           </div>
           <div className="col-md-12 d-flex small_desc_btn mt-3">
             <span className="shadow_v1">Sprint60m - 1 attempt</span>
-            <span className="shadow_v1">Cricket - T10</span>
+            <span className="shadow_v1">Cricket </span>
             <span className="shadow_v1">Badminton</span>
           </div>
         </div>
@@ -54,7 +54,7 @@ function ThreeDiscipline() {
             <img loading='lazy' className='three2' src="images/compt/cricket.png" alt="" />
           </div>
           <div className="col-md-5 left_three">
-            <h1>Cricket - T10</h1>
+            <h1>Cricket </h1>
             <p>In the Cricket T10 event, teams will compete in a fast-paced, thrilling 10-over match. Players will showcase their batting, bowling, and fielding skills within a limited time frame. The goal is to score as many runs as possible while maintaining tight bowling and sharp fielding. With only 10 overs per side, every moment counts, and strategy plays a crucial role</p>
             <a href="document/sample.pdf" target='_blank' style={{textDecoration:'none',color:'#fff'}}><span className='left_three_btn shadow_v1'>Rules of Cricket T10 <i class="bi bi-arrow-up-right"></i></span></a>
           </div>

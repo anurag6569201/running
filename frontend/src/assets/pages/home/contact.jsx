@@ -34,19 +34,19 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        setLoading(true); 
+        setLoading(true); // Show loading spinner
 
         axios
             .post("https://running-5ymt.onrender.com/api/contact/", formData)
             .then((response) => {
-                setResponseMessage(response.data.message);
+                setResponseMessage(response.data.message); // Display success message
             })
             .catch((error) => {
-                const errorMessage = error.response.data.error || "An unexpected error occurred.";
-                setResponseMessage(errorMessage);
+                const errorMessage = error.response?.data?.error || "An unexpected error occurred.";
+                setResponseMessage(errorMessage); // Display error message
             })
             .finally(() => {
-                setLoading(false);
+                setLoading(false); // Hide loading spinner
             });
     };
 
@@ -114,20 +114,18 @@ function Contact() {
                                         required
                                     ></textarea>
                                     {responseMessage && <div className="response-message">{responseMessage}</div>}
-                                    <div className="loader_box" disabled={loading}>
-                                        {loading ? (
-                                        <div className="text-light" role="status">
-                                            <div className="loader">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
+                                    <div className={`loader_box ${loading ? "show" : ""}`}>
+                                        {loading && (
+                                            <div className="text-light" role="status">
+                                                <div className="loader">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        ) : (
-                                            ""
                                         )}
                                     </div>
                                 </div>
@@ -135,8 +133,12 @@ function Contact() {
                             <span className="mandatory-text">* mandatory field</span>
 
                             <div className="d-flex justify-content-center align-items-center">
-                                <button type="submit" className="btn btn-send shadow_v1">
-                                        "Send message"
+                                <button 
+                                    type="submit" 
+                                    className="btn btn-send shadow_v1" 
+                                    disabled={loading}
+                                >
+                                    Send message
                                 </button>
                             </div>
                         </div>

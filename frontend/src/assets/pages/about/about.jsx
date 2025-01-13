@@ -11,7 +11,7 @@ function AboutUs() {
       <div className='container-fluid about_us_container'>
         <div className="about_us_content pt-5">
           <img loading='lazy' className='about_us_img' src="images/about_us/runner.png" alt="" />
-          <h1>The Athletics Kids Cup is a competition format for children and adolescents based on the successful Sports Kid Talent Hunt format in Europe.</h1>
+          <h1>The Athletics Talent Hunt is a competition format for children and adolescents based on the successful Sports Kid Talent Hunt format in Europe.</h1>
           <p className='pt-2'>The Dspowerparts team, athletics enthusiasts from Europe, The Sports Kid Talent Hunt is a standalone initiative tailored to the country's unique situation.</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ function AboutUs() {
                     {/* <div className='d-flex justify-content-center'>
                       <img loading='lazy' src="images/home/logo.png" alt="" />
                     </div> */}
-                    <p class="card-text">Striders Miles is a central partner in the realisation of the Athletics Kids Cup. The Striders team has supported the Athletics Kids Cup from the very beginning and is the local contact for all schools and ensures the smooth organisation of the initiative.</p>
+                    <p class="card-text">Striders Miles is a central partner in the realisation of the Athletics Talent Hunt. The Striders team has supported the Athletics Talent Hunt from the very beginning and is the local contact for all schools and ensures the smooth organisation of the initiative.</p>
                   </div>
                 </div>
               </div>

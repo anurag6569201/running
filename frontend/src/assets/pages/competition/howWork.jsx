@@ -3,6 +3,7 @@ import '../../css/compt/compt.css'
 import DesignBar from '../home/design_bar';
 import Footer from '../home/footer';
 import { Link } from 'react-router-dom';
+import DesignImages from '../home/design_images';
 
 function HowWork() {
   return (
@@ -14,8 +15,8 @@ function HowWork() {
             <p>The Sports Kid Talent Hunt is a major youth initiative in India for children and adolescents aged 7 to 16. Participants will compete in three exciting events:</p>
             <ul>
               <li><div className="span_circle shadow_v1"></div>Athletics</li>
-              <li><div className="span_circle shadow_v1"></div>Cricket</li>
               <li><div className="span_circle shadow_v1"></div>Badminton</li>
+              <li><div className="span_circle shadow_v1"></div>Cricket</li>
             </ul>
             <p>We encourage you to organize the Sports Kid Talent Hunt as part of your sports day. It requires meeting just three simple criteria and offers numerous benefits!</p>
           </div>
@@ -24,7 +25,7 @@ function HowWork() {
           </div>
         </div>
       </div>
-      <DesignBar />
+      <DesignImages />
       <div className="container-fluid">
         <div className="row how_work_wrapper_row howWcontainer1 justify-content-center">
           <div className="row justify-content-center align-items-center pt-5 pb-5">
@@ -188,7 +189,7 @@ function HowWork() {
           </div>
         </div>
       </div>
-      <DesignBar />
+      <DesignImages />
       <Footer />
     </>
   );

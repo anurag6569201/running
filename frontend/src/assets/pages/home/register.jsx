@@ -94,7 +94,7 @@ function Register() {
                 aria-hidden="true"
             >
                 <div className="modal-dialog modal-dialog-scrollable modal-lg">
-                <div className="modal-content p-3 pt-0" style={{ borderRadius: '30px' }}>
+                    <div className="modal-content p-3 pt-0" style={{ borderRadius: '30px' }}>
                         <div className="modal-header model_header_register">
                             <h1 className="modal-title fs-5" id="staticBackdropLabel">
                                 Pre Registration
@@ -295,22 +295,22 @@ function Register() {
                                     </div>
 
                                     <div className="col-md-12">
-                                    <div className="modal-footer">
-                                        <span>* mandatory field</span>
-                                        <button
-                                            type="submit"
-                                            className="btn submit_registration_btn shadow_v1"
-                                        >
-                                            Submit Details <i class="bi bi-arrow-up-right"></i>
-                                        </button>
-                                    </div>
+                                        <div className="modal-footer">
+                                            <span>* mandatory field</span>
+                                            <button
+                                                type="submit"
+                                                className="btn submit_registration_btn shadow_v1"
+                                            >
+                                                Submit Details <i className="bi bi-arrow-up-right"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                </div >
-            </div >
+                </div>
+            </div>
         </>
     );
 }

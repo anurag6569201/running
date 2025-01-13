@@ -16,7 +16,7 @@ const dataProtectionInfo = [
   },
   {
     title: "Data Sharing",
-    content: "We may share your personal information with third parties involved in organizing the Athletics Kids Cup (AKC) event, but only to the extent necessary to support event operations."
+    content: "We may share your personal information with third parties involved in organizing the Athletics Talent Hunt (AKC) event, but only to the extent necessary to support event operations."
   },
   {
     title: "Data Rights",
@@ -31,7 +31,7 @@ function DataProtection() {
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h1>Data Privacy Disclaimer</h1>
-            <p>By registering for and participating in the Athletics Kids Cup (AKC), you agree to the collection, use, and processing of your personal information as described below:</p>
+            <p>By registering for and participating in the Athletics Talent Hunt (AKC), you agree to the collection, use, and processing of your personal information as described below:</p>
           </div>
 
           {dataProtectionInfo.map((item, index) => (
