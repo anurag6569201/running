@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../css/faq/faq.css';
 import Footer from '../home/footer';
-import DesignBar from '../home/design_bar';
+import DesignBar from '../home/design_images';
 
 const faqItems = [
   {
@@ -22,12 +22,12 @@ const faqItems = [
   {
     id: "Four",
     title: "Events Included in the Talent Hunt",
-    content: "Details about the events like 60m Sprint, Long Jump, Ball Throw, and how participants are evaluated.",
+    content: "Details about the events like 60m Sprint, football and Cricket, and how participants are evaluated.",
   },
   {
     id: "Five",
     title: "Regional Finals and Grand Final",
-    content: "Information on regional finals and how top performers qualify for the Grand Bhubaneswar Final.",
+    content: "Information on regional finals and how top performers qualify for the Grand Final.",
   },
 ];
 
@@ -77,7 +77,6 @@ function FAQ() {
           </div>
         </div>
       </div>
-      <DesignBar />
       <Footer />
     </>
   );

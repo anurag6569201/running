@@ -8,6 +8,7 @@ import Contact from './contact';
 import Footer from './footer';
 
 import "../../css/home/home.css";
+import "../../css/compt/compt.css"
 import DesignImages from './design_images';
 function Home() {
 

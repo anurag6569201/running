@@ -8,7 +8,7 @@ const participationConditions = [
   },
   {
     title: "Eligibility",
-    content: "To participate in the Athletics Talent Hunt (AKC), you must meet the eligibility criteria, including age requirements, medical clearance, and parental consent."
+    content: "To participate in the Kids Talent Hunt (KTH), you must meet the eligibility criteria, including age requirements, medical clearance, and parental consent."
   },
   {
     title: "Event Participation",
@@ -16,7 +16,7 @@ const participationConditions = [
   },
   {
     title: "Liability",
-    content: "By participating in the Athletics Talent Hunt (AKC), you acknowledge and agree that the event organizers are not responsible for any accidents or injuries that may occur during the event."
+    content: "By participating in the Kids Talent Hunt (KTH), you acknowledge and agree that the event organizers are not responsible for any accidents or injuries that may occur during the event."
   },
   {
     title: "Consent",
@@ -31,7 +31,7 @@ function ConditionParticipation() {
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h1>Conditions of Participation</h1>
-            <p>By registering for and participating in the Athletics Talent Hunt (AKC), you agree to the terms and conditions outlined below:</p>
+            <p>By registering for and participating in the Kids Talent Hunt (KTH), you agree to the terms and conditions outlined below:</p>
           </div>
 
           {participationConditions.map((item, index) => (

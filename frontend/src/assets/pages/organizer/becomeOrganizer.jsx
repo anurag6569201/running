@@ -12,8 +12,8 @@ function BecomeOrganizer() {
     <div className="container">
       <div className="row justify-content-center align-items-center">
         <div className="col-md-5">
-          <h1>How easy it is to organise an Athletics Talent Hunt</h1>
-          <p>We support you in organising an Athletics Talent Hunt. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
+          <h1>How easy it is to organise an Kids Talent Hunt Hunt</h1>
+          <p>We support you in organising an Kids Talent Hunt Hunt. Each school/organiser receives a ready-to-use toolkit to organise its own competition. The toolkit includes:</p>
           <Register/>
         </div>
         <div className="col-md-5">
@@ -35,7 +35,7 @@ function BecomeOrganizer() {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">The three discipline</h5>
-                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Athletics Talent Hunt.</p>
+                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Kids Talent Hunt Hunt.</p>
                     <span class="card-text greenhowW shadow_v1"><Link className='text_style_link' to="/rulesCategory">More Info <i class="bi bi-arrow-up-right"></i></Link></span>
                   </div>
                 </div>
