@@ -7,9 +7,6 @@ from .serializers import ContactFormSerializer
 from django.shortcuts import render, redirect
 from contact.models import ContactForms
 
-def index(request):
-    return render(request, 'core/index.html')
-
 
 class ContactFormAPIView(APIView):
     def post(self, request, *args, **kwargs):

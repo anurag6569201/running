@@ -35,7 +35,7 @@ function BecomeOrganizer() {
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">The three discipline</h5>
-                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in the Kids Talent Hunt Hunt.</p>
+                    <p class="card-text">Running - Jumping - Throwing: All about the disciplines in The Kids Talent Hunt.</p>
                     <span class="card-text greenhowW shadow_v1"><Link className='text_style_link' to="/rulesCategory">More Info <i class="bi bi-arrow-up-right"></i></Link></span>
                   </div>
                 </div>

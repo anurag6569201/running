@@ -11,8 +11,8 @@ function AboutUs() {
       <div className='container-fluid about_us_container'>
         <div className="about_us_content pt-5">
           <img loading='lazy' className='about_us_img' src="images/about_us/runner.png" alt="" />
-          <h1>The Kids Talent Hunt Hunt is a competition format for children and adolescents based on the successful Sports Kid Talent Hunt format in Europe.</h1>
-          <p className='pt-2'>The Dspowerparts team, athletics enthusiasts from Europe, The Sports Kid Talent Hunt is a standalone initiative tailored to the country's unique situation.</p>
+          <h1>The Kids Talent Hunt is a competition format for children and adolescents based on the successful Sports Kid Talent Hunt format in Europe.</h1>
+          <p className='pt-2'>The Dspowerparts team, Athletics, Football and Cricket enthusiasts from Europe, The Sports Kid Talent Hunt is a standalone initiative tailored to the country's unique situation.</p>
         </div>
       </div>
       <DesignBar />
@@ -21,7 +21,7 @@ function AboutUs() {
           <div className="col-md-3">
             <h1>Our team</h1>
             <p>Dspowerparts and its partners ensure that the Sports Kid Talent Hunt gets children in India moving.</p>
-            <p>As many atheltes as possible should be able to have fun Running, Badminton and Cricket.</p>
+            <p>As many atheltes as possible should be able to have fun Running, Football and Cricket.</p>
           </div>
           <div className="col-md-6 designer_frame_md">
             <div className="designer_frame_team shadow_v1">
@@ -42,7 +42,7 @@ function AboutUs() {
                     {/* <div className='d-flex justify-content-center'>
                       <img loading='lazy' src="images/home/logo.png" alt="" />
                     </div> */}
-                    <p class="card-text">UBS is committed to drive sustainable social impact among its communities with a focus on enabling children and young adults to achieve their potential through catalytic interventions around education, wellbeing and the environment.</p>
+                    <p class="card-text">GVR is committed to drive sustainable social impact among its communities with a focus on enabling children and young adults to achieve their potential through catalytic interventions around education, wellbeing and the environment.</p>
                   </div>
                 </div>
               </div>
@@ -53,7 +53,7 @@ function AboutUs() {
                     {/* <div className='d-flex justify-content-center'>
                       <img loading='lazy' src="images/home/logo.png" alt="" />
                     </div> */}
-                    <p class="card-text">Striders Miles is a central partner in the realisation of the Kids Talent Hunt Hunt. The Striders team has supported the Kids Talent Hunt Hunt from the very beginning and is the local contact for all schools and ensures the smooth organisation of the initiative.</p>
+                    <p class="card-text">GVR is a central partner in the realisation of The Kids Talent Hunt. The GVR team has supported The Kids Talent Hunt from the very beginning and is the local contact for all schools and ensures the smooth organisation of the initiative.</p>
                   </div>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function AboutUs() {
             <div className="row justify-content-center">
               <div className="col-md-7">
                 <h2>Information for media representatives</h2>
-                <p>We are available to media representatives at any time:  Please contact us via media@sample.com</p>
+                <p>We are available to media representatives at any time:  Please contact us via media@sample.com (to be update)</p>
               </div>
               <div className="col-md-3 btn-contactssds">
                 <Link to="/contact"><button type="submit" class="btn btn-send-contact-us shadow_v1">

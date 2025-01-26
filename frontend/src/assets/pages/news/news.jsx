@@ -6,13 +6,6 @@ import Footer from '../home/footer';
 function News() {
   const newsItems = [
     {
-      title: "Badminton Tournament Highlights",
-      description: "Catch all the exciting moments from the recent badminton tournament, showcasing young talent and intense matches.",
-      imageSrc: "images/news/badminton.png",
-      altText: "Badminton Tournament News",
-      link: "#",
-    },
-    {
       title: "Cricket T10 League Updates",
       description: "Relive the thrilling matches and top performances from the latest Cricket T10 league event. Stay tuned for upcoming matches!",
       imageSrc: "images/news/cricket.png",
@@ -54,13 +47,13 @@ function News() {
         <div className="row mt-5 news_container_links">
         <h2>News covered on:</h2>
         <ul>
-          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Badminton stars shine at the Sports Kid Talent Hunt in Bhubaneswar</a></li>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Football stars shine at the Sports Kid Talent Hunt in Bhubaneswar</a></li>
           <li><a href="#"><i className="bi bi-arrow-up-right"></i> Thrilling matches unfold in the Cricket T10 Youth League in Sambalpur</a></li>
-          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Record-breaking runs at the Running Challenge in Koraput</a></li>
+          <li><a href="#"><i className="bi bi-arrow-up-right"></i> Record-breaking runs at the Running Challenge</a></li>
           <li><a href="#"><i className="bi bi-arrow-up-right"></i> Sports Kid Talent Hunt inspires youth across Odisha</a></li>
         </ul>
         <h2 className='mt-4'>Information for media representatives</h2>
-        <p>We are available to media representatives at any time: Please contact us via <a href="mailto:media@sample.com">media@sample.com</a></p>
+        <p>We are available to media representatives at any time: Please contact us via <a href="mailto:media@sample.com">media@sample.com (to be update)</a></p>
       </div>
 
       </div>
