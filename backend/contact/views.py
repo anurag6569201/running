@@ -6,9 +6,16 @@ from django.template.loader import render_to_string
 from .serializers import ContactFormSerializer
 from django.shortcuts import render, redirect
 from contact.models import ContactForms
+from rest_framework.permissions import AllowAny
 
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
+@method_decorator(csrf_exempt, name='dispatch')
 class ContactFormAPIView(APIView):
+    # Allow any user (authenticated or not) to access this view
+    permission_classes = [AllowAny]
+
     def post(self, request, *args, **kwargs):
         serializer = ContactFormSerializer(data=request.data)
         if serializer.is_valid():
@@ -51,7 +58,7 @@ class ContactFormAPIView(APIView):
                 email_subject,
                 '',  # No plain text body, just HTML
                 email,  # Sender email
-                ['kiitscup@gmail.com'],  # Your email to receive the contact form submissions
+                ['anuragsingh6569201@gmail.com'],  # Your email to receive the contact form submissions
                 html_message=email_body,  # HTML email body
                 fail_silently=False,
             )

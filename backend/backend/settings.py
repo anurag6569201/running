@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +29,7 @@ SECRET_KEY = "django-insecure-&#ugk()l+b&rfk41txg-*eijbutp991a&f&+24%q(^5&_xd6*&
 DEBUG = True
 
 ALLOWED_HOSTS = ['*','.vercel.app']
-CSRF_TRUSTED_ORIGINS = ['https://127.0.0.1','https://runningwebsitebackend.vercel.app/']
+CSRF_TRUSTED_ORIGINS = ['https://127.0.0.1','https://runningwebsitebackend.vercel.app/','http://localhost:5173',]
 
 
 
@@ -50,6 +52,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    # Cors Headers
+    'corsheaders.middleware.CorsMiddleware', 
+
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -57,8 +62,6 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-
-    'corsheaders.middleware.CorsMiddleware', # cors headers
 ]
 
 ROOT_URLCONF = "backend.urls"
@@ -110,6 +113,11 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',  # Default requires authentication
+    ]
+}
 
 
 # Internationalization
@@ -139,7 +147,15 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-CORS_ALLOW_ALL_ORIGINS = True
+FRONTEND_URL=os.getenv('FRONTEND_URL')
+print(FRONTEND_URL)
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'https://127.0.0.1',
+    'https://runningwebsitebackend.vercel.app',
+]
+
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
