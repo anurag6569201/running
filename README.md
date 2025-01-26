@@ -27,13 +27,13 @@ This project is a comprehensive web-based platform designed for managing school 
 1. Clone the repository:
    ```bash
    git clone <repository_url>
-   cd <project_directory>
+   cd backend
    ```
 
 2. Create a virtual environment and activate it:
    ```bash
-   python3 -m venv env
-   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   virtualenv envname
+   source envname/bin/activate 
    ```
 
 3. Install the required dependencies:
@@ -41,7 +41,13 @@ This project is a comprehensive web-based platform designed for managing school 
    pip install -r requirements.txt
    ```
 
-4. Apply migrations and start the server:
+4. Add env file
+   ```bash
+   VITE_BASE_BACKEND_URL="http://127.0.0.1:8000"
+   FRONTEND_URL="http://localhost:5173"
+   ```
+
+5. Apply migrations and start the server:
    ```bash
    python manage.py migrate
    python manage.py runserver
@@ -58,10 +64,25 @@ This project is a comprehensive web-based platform designed for managing school 
    npm install
    ```
 
-3. Start the development server:
+3. Add env file
+   ```bash
+   VITE_BASE_BACKEND_URL="http://127.0.0.1:8000"
+   ```
+   
+4. Start the development server:
    ```bash
    npm start
    ```
+
+### Creating admin for the backend
+```bash
+python manage.py createsuperuser
+add email and username and after that create password
+
+python manage.py runserver
+visit (base_url/admin)
+Enter login credentials of the admin pannel
+```
 
 ## Deployment
 ### Backend Deployment
@@ -71,22 +92,7 @@ This project is a comprehensive web-based platform designed for managing school 
 ### Frontend Deployment
 - Hosted on Vercel for fast and reliable delivery.
 
-## Contribution Guidelines
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a Pull Request.
-
+\
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
